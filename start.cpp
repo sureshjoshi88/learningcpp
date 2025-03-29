@@ -1,5 +1,10 @@
 #include <iostream>
 using namespace std;
+// int main(){
+//     cout<<"hello";
+// }
+
 int main(){
-    cout<<"hello";
+    string name = "suresh";
+    cout<< name;
 }
