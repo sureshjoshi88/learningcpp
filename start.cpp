@@ -9,10 +9,15 @@ using namespace std;
 //     cout<< name;
 // }
 
-int main(){
-    int count = 2;
-    for(int i = 1;i<=10;i++){
-        cout<<count*i<<"\n";
-    }
-}
+// int main(){
+//     int count = 2;
+//     for(int i = 1;i<=10;i++){
+//         cout<<count*i<<"\n";
+//     }
+// }
+
+// int main(){
+//     char name = 'A';
+//     cout<<name;
+// }
 
