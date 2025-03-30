@@ -21,3 +21,7 @@ using namespace std;
 //     cout<<name;
 // }
 
+int main(){
+    bool x = true;
+    cout<<x;
+}
