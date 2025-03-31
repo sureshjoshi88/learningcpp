@@ -26,7 +26,17 @@ using namespace std;
 //     cout<<x;
 // }
 
+// int main(){
+//     float num = 12.50;
+//     cout<<num;
+// }
+
 int main(){
-    float num = 12.50;
-    cout<<num;
+    for (int i = 0; i < 50; i++)
+    {
+       if(i%2==0){
+        cout<<i<<"the even number"<<"\n";
+       }
+    }
+    
 }
