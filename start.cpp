@@ -21,7 +21,12 @@ using namespace std;
 //     cout<<name;
 // }
 
+// int main(){
+//     bool x = true;
+//     cout<<x;
+// }
+
 int main(){
-    bool x = true;
-    cout<<x;
+    float num = 12.50;
+    cout<<num;
 }
