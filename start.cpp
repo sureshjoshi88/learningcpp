@@ -46,3 +46,14 @@ using namespace std;
 //     cout<<number;
 // }
 
+// int main(){
+//     int radaius = 10;
+//    const double x = 3.14;
+//     double totAL = 2*x*10;
+//     cout<<totAL;
+// }
+
+int main(){
+    const double num = 10.5;
+    cout<<num;
+}
