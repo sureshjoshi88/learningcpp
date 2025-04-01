@@ -41,7 +41,8 @@ using namespace std;
     
 // }
 
-int main(){
-    double number = 12394.43;
-    cout<<number;
-}
+// int main(){
+//     double number = 12394.43;
+//     cout<<number;
+// }
+
