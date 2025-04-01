@@ -31,12 +31,17 @@ using namespace std;
 //     cout<<num;
 // }
 
-int main(){
-    for (int i = 0; i < 50; i++)
-    {
-       if(i%2==0){
-        cout<<i<<"the even number"<<"\n";
-       }
-    }
+// int main(){
+//     for (int i = 0; i < 50; i++)
+//     {
+//        if(i%2==0){
+//         cout<<i<<"the even number"<<"\n";
+//        }
+//     }
     
+// }
+
+int main(){
+    double number = 12394.43;
+    cout<<number;
 }
