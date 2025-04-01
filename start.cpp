@@ -53,7 +53,20 @@ using namespace std;
 //     cout<<totAL;
 // }
 
-int main(){
-    const double num = 10.5;
-    cout<<num;
-}
+// int main(){
+//     const double num = 10.5;
+//     cout<<num;
+// }
+
+// namespace first{
+//     int x = 10;
+// }
+
+// int main(){
+//     using namespace first;
+//     cout<<x;
+// }
+
+// int main(){
+//     cout<<first::x;
+// }
