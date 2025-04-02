@@ -71,14 +71,36 @@ using namespace std;
 //     cout<<first::x;
 // }
 
-int main(){
-    int count = 0;
-    for (int i = 0; i <= 100; i++){
-       if(i%2==0){
-       }
-       int total = count+=i;
+// int main(){
+//     int count = 0;
+//     for (int i = 0; i <= 100; i++){
+//        if(i%2==0){
+//        }
+//        int total = count+=i;
 
-       cout<<total<<"\n";
-    }
+//        cout<<total<<"\n";
+//     }
     
-}
+// }
+
+// int main(){
+//     //  int factriol = 5;
+//     // int totalFactroil = 1;
+//     // while (factriol>=1)
+//     // {
+//     //     totalFactroil = factriol*totalFactroil;
+//     //     factriol--;
+//     // }
+//     // cout<<totalFactroil;
+// }
+
+// int main(){
+//     int factroil = 1;
+//     for (int i = 5; i >=1; i--){
+//         factroil = i*factroil;
+//     }
+//     cout<<factroil;
+    
+// }
+
+
