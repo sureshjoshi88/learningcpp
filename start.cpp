@@ -71,3 +71,11 @@ using namespace std;
 //     cout<<first::x;
 // }
 
+int main(){
+    for (int i = 0; i <= 100; i++){
+       if(i%2!=0){
+        cout<<i <<" this is odd number"<<"\n";
+       }
+    }
+    
+}
