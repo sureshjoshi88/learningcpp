@@ -104,3 +104,8 @@ using namespace std;
 // }
 
 
+// int main(){
+//     int num = 10.6;
+//     double x = num;
+//     cout<<x;
+// }

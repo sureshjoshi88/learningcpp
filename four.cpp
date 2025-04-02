@@ -34,3 +34,10 @@ using namespace std;
 
 //     using name = string;
 // }
+
+// int main(){
+//     typedef int number;
+//     number y = 20;
+//     cout<<y;
+// }
+
