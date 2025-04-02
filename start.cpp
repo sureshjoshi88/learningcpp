@@ -72,10 +72,13 @@ using namespace std;
 // }
 
 int main(){
+    int count = 0;
     for (int i = 0; i <= 100; i++){
-       if(i%2!=0){
-        cout<<i <<" this is odd number"<<"\n";
+       if(i%2==0){
        }
+       int total = count+=i;
+
+       cout<<total<<"\n";
     }
     
 }
