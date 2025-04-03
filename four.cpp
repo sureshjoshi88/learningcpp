@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+#include <typeinfo>
 // int main(){
 //    typedef typealias
 
@@ -41,3 +42,9 @@ using namespace std;
 //     cout<<y;
 // }
 
+int main(){
+    int x = 10;
+    double y = 5.55;
+    double total = x*y;
+    cout<<"total price = "<<total;
+}
