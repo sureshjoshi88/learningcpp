@@ -136,3 +136,8 @@ using namespace std;
 // getline(cin>>ws,name);
 
 
+// int main(){
+//     double a = 10.6;
+//     double total = (int)a;
+//         cout<<total;
+// }
