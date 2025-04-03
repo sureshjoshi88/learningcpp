@@ -72,15 +72,72 @@ using namespace std;
 //     cout<<total;
 // }
 
-int main(){
-    string name ;
-    cout<<"Enter your name :-";
-    getline(cin>>ws,name);
-    cout<<"entr your job :-";
-    string job;
-    getline(cin>>ws,job);
-    int age;
-    cout<<"enter your age :-";
-    cin>>age;
-    cout<<"my name is "<<name<<" and job is "<<job<<" and age is "<<age;
-}
+// int main(){
+//     string name ;
+//     cout<<"Enter your name :-";
+//     getline(cin>>ws,name);
+//     cout<<"entr your job :-";
+//     string job;
+//     getline(cin>>ws,job);
+//     int age;
+//     cout<<"enter your age :-";
+//     cin>>age;
+//     cout<<"my name is "<<name<<" and job is "<<job<<" and age is "<<age;
+// }
+
+
+
+
+// int main(){
+//type conversion
+//there are two types of type conversion
+//explict (automatically), implicit (conversion of data types manually)
+
+// explicit
+// int x =3.14;
+// cout<<x;
+//implicit
+// double x = (int)3.14;
+// std::cout << "Type of int_var: " << typeid(x).name() ;
+//eg
+
+// char x =100;
+// cout<<x;
+// cout<<(char)100;
+
+//eg
+//bodmas
+// int correct = 8;
+// int questions = 10;
+// double score = (double)correct/questions * 100;
+// cout<<score<<"%";
+// use of cin
+
+
+// string x;
+// cout<<"Enter a Name ";
+// cin>>x;
+// cout<<x<<" is a user";
+
+
+// how to input sentence using getline()
+
+// int age;
+// string name;
+// cout<<"Enter your Age.";
+// cin>>age;
+// cout<<"Enter your Name.";
+// getline(cin>>ws,name);
+
+// cout<<"Age of "<<name<<" is "<<age;
+// }
+
+// solve bug getline() bug using whitespace
+// getline(cin>>ws,name);
+
+//Task
+//(use proper variable types and run program without any error)
+//Add two number
+//multiply variable from different namespaces
+// Find the area of circle 
+//print name, job and age of the user.
