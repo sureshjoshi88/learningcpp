@@ -135,9 +135,4 @@ using namespace std;
 // solve bug getline() bug using whitespace
 // getline(cin>>ws,name);
 
-//Task
-//(use proper variable types and run program without any error)
-//Add two number
-//multiply variable from different namespaces
-// Find the area of circle 
-//print name, job and age of the user.
+
