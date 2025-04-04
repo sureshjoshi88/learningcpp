@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 #include <typeinfo>
+#include <cmath>
 // int main(){
 //    typedef typealias
 
@@ -181,31 +182,82 @@ using namespace std;
 //     cout<<factroil;
 // }
 
-int main(){
-    cout<<"enter a number:-";
-    int number1;
-    cin>>number1;
-    cout<<"enter a sin:-";
-    char x;
-    cin>>x;
-    cout<<"enter a number2:-";
-    int number2;
-    cin>>number2;
-    if(x=='+'){
-        cout<<number1+number2;
-    }else if(x=='-'){
-        cout<<number1-number2;
+// int main(){
+//     cout<<"enter a number:-";
+//     int number1;
+//     cin>>number1;
+//     cout<<"enter a sin:-";
+//     char x;
+//     cin>>x;
+//     cout<<"enter a number2:-";
+//     int number2;
+//     cin>>number2;
+//     if(x=='+'){
+//         cout<<number1+number2;
+//     }else if(x=='-'){
+//         cout<<number1-number2;
 
-    }
-    else if(x=='*'){
-        cout<<number1*number2;
+//     }
+//     else if(x=='*'){
+//         cout<<number1*number2;
 
-    }
-    else if(x=='/'){
-        cout<<number1/number2;
+//     }
+//     else if(x=='/'){
+//         cout<<number1/number2;
 
-    }
-    else{
-        cout<<"invalid data";
-    }
-}
+//     }
+//     else{
+//         cout<<"invalid data";
+//     }
+// }
+
+
+// int main(){
+    // int x = 5;
+    // int y = 3;
+
+    //double z = pow(x,2);
+//    int z = max(x,y);  //maxium value dega 
+    // int z = min(x,y);   // minuim value dega
+    // int z = sqrt(x);   // rud deta h
+    // int z = round(3.2);   // rounded value dega
+    // int z = ceil(3.8);   // age ki value dega
+    // int z = floor(3.8);  // piche ki value dega
+    // cout<<z;
+// }
+
+
+
+// int main(){
+//     int number;
+//     cout<<"enter a number please enter a 1-7 number :- ";
+//     cin>>number;
+//     switch (number)
+//     {
+//     case 1:
+//         cout<<"monday";
+//         break;
+//     case 2:
+//         cout<<"tuesday";
+//         break;
+//     case 3:
+//         cout<<"wednesday";
+//         break;
+//     case 4:
+//         cout<<"thursday";
+//         break;
+//     case 5:
+//         cout<<"friday";
+//         break;
+//     case 6:
+//         cout<<"saturday";
+//         break;
+//     case 7:
+//         cout<<"sunday";
+//         break;
+    
+//     default:
+//     cout<<"invalid number please try again";
+//         break;
+//     }
+// }
