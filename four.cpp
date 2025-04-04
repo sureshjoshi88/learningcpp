@@ -169,14 +169,43 @@ using namespace std;
 //     cout<<total;
 // }
 
-int main()
-{
-    int num1;
-    cout << "Enter your num";
-    cin >> num1;
-    int factroil = 1;
-    for(int i = num1;i>=1;i--){
-       factroil = i*factroil;
+// int main()
+// {
+//     int num1;
+//     cout << "Enter your num";
+//     cin >> num1;
+//     int factroil = 1;
+//     for(int i = num1;i>=1;i--){
+//        factroil = i*factroil;
+//     }
+//     cout<<factroil;
+// }
+
+int main(){
+    cout<<"enter a number:-";
+    int number1;
+    cin>>number1;
+    cout<<"enter a sin:-";
+    char x;
+    cin>>x;
+    cout<<"enter a number2:-";
+    int number2;
+    cin>>number2;
+    if(x=='+'){
+        cout<<number1+number2;
+    }else if(x=='-'){
+        cout<<number1-number2;
+
     }
-    cout<<factroil;
+    else if(x=='*'){
+        cout<<number1*number2;
+
+    }
+    else if(x=='/'){
+        cout<<number1/number2;
+
+    }
+    else{
+        cout<<"invalid data";
+    }
 }
