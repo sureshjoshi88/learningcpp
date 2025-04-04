@@ -155,3 +155,15 @@ using namespace std;
 //     getline(cin>>ws,village);
 //     cout<<"my name is "<<name<<" and my age is a "<<age<<" and my village is a "<<village;
 // }
+
+
+int main(){
+    int number;
+    cout<<"Enter a number :-";
+    cin>>number;
+    if(number%2==0){
+        cout<<number<<" the number is even";
+    }else{
+        cout<<number<<" the number is odd";
+    }
+}
