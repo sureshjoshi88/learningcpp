@@ -141,3 +141,17 @@ using namespace std;
 //     double total = (int)a;
 //         cout<<total;
 // }
+
+
+// int main(){
+//     cout<<"enter your name";
+//     string name ;
+//     getline(cin>>ws,name);
+//     cout<<"enter your age";
+//     int age;
+//     cin>>age;
+//     cout<<"enter your village";
+//     string village;
+//     getline(cin>>ws,village);
+//     cout<<"my name is "<<name<<" and my age is a "<<age<<" and my village is a "<<village;
+// }
