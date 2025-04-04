@@ -94,14 +94,14 @@ using namespace std;
 //     // cout<<totalFactroil;
 // }
 
-// int main(){
-//     int factroil = 1;
-//     for (int i = 5; i >=1; i--){
-//         factroil = i*factroil;
-//     }
-//     cout<<factroil;
+int main(){
+    int factroil = 1;
+    for (int i = 5; i >=1; i--){
+        factroil = i*factroil;
+    }
+    cout<<factroil;
     
-// }
+}
 
 
 // int main(){

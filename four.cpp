@@ -13,21 +13,19 @@ using namespace std;
 // int student  = 20;
 // student+= 1;
 // student%=3;
-//student = student + 1
+// student = student + 1
 // cout<<student;
 
-//arithemetic operations
-// }
+// arithemetic operations
+//  }
 
 // // type conversion
-
 
 // int main(){
 //     int student = 20;
 //     int total = student%=3;
 //     cout<<total;
 // }
-
 
 // int main(){
 //     // typedef int num;
@@ -85,40 +83,35 @@ using namespace std;
 //     cout<<"my name is "<<name<<" and job is "<<job<<" and age is "<<age;
 // }
 
-
-
-
 // int main(){
-//type conversion
-//there are two types of type conversion
-//explict (automatically), implicit (conversion of data types manually)
+// type conversion
+// there are two types of type conversion
+// explict (automatically), implicit (conversion of data types manually)
 
 // explicit
 // int x =3.14;
 // cout<<x;
-//implicit
+// implicit
 // double x = (int)3.14;
 // std::cout << "Type of int_var: " << typeid(x).name() ;
-//eg
+// eg
 
 // char x =100;
 // cout<<x;
 // cout<<(char)100;
 
-//eg
-//bodmas
-// int correct = 8;
-// int questions = 10;
-// double score = (double)correct/questions * 100;
-// cout<<score<<"%";
-// use of cin
-
+// eg
+// bodmas
+//  int correct = 8;
+//  int questions = 10;
+//  double score = (double)correct/questions * 100;
+//  cout<<score<<"%";
+//  use of cin
 
 // string x;
 // cout<<"Enter a Name ";
 // cin>>x;
 // cout<<x<<" is a user";
-
 
 // how to input sentence using getline()
 
@@ -135,13 +128,11 @@ using namespace std;
 // solve bug getline() bug using whitespace
 // getline(cin>>ws,name);
 
-
 // int main(){
 //     double a = 10.6;
 //     double total = (int)a;
 //         cout<<total;
 // }
-
 
 // int main(){
 //     cout<<"enter your name";
@@ -156,14 +147,36 @@ using namespace std;
 //     cout<<"my name is "<<name<<" and my age is a "<<age<<" and my village is a "<<village;
 // }
 
+// int main(){
+//     int number;
+//     cout<<"Enter a number :-";
+//     cin>>number;
+//     if(number%2==0){
+//         cout<<number<<" the number is even";
+//     }else{
+//         cout<<number<<" the number is odd";
+//     }
+// }
 
-int main(){
-    int number;
-    cout<<"Enter a number :-";
-    cin>>number;
-    if(number%2==0){
-        cout<<number<<" the number is even";
-    }else{
-        cout<<number<<" the number is odd";
+// int main(){
+//     int num1;
+//     int num2;
+//     cout<<"Enter your num";
+//     cin>>num1;
+//     cout<<"Enter your num";
+//     cin>>num2;
+//     int total = num1+num2;
+//     cout<<total;
+// }
+
+int main()
+{
+    int num1;
+    cout << "Enter your num";
+    cin >> num1;
+    int factroil = 1;
+    for(int i = num1;i>=1;i--){
+       factroil = i*factroil;
     }
+    cout<<factroil;
 }
