@@ -264,9 +264,16 @@ using namespace std;
 // }
 
 
-int main(){
-        cout<<"give me number and take me this number quare :- ";
-        int number;
-        cin>>number;
-        cout<<number*number;
-    }
+// int main(){
+//         cout<<"give me number and take me this number quare :- ";
+//         int number;
+//         cin>>number;
+//         cout<<number*number;
+//     }
+
+// int main(){
+//     double pi = 3.14;
+//     double r = 9;
+//     double area = pi*r*r;
+//     cout<<area;
+// }
