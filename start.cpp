@@ -111,9 +111,9 @@ using namespace std;
 //     cout<<x;
 // }
 
-int main(){
-    cout<<"give me number and take me this number quare :- ";
-    int number;
-    cin>>number;
-    cout<<number*number;
-}
+// int main(){
+//     cout<<"give me number and take me this number quare :- ";
+//     int number;
+//     cin>>number;
+//     cout<<number*number;
+// }
