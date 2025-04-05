@@ -223,7 +223,8 @@ using namespace std;
     // int z = round(3.2);   // rounded value dega
     // int z = ceil(3.8);   // age ki value dega
     // int z = floor(3.8);  // piche ki value dega
-    // cout<<z;
+    // cout<<z;a
+    
 // }
 
 
