@@ -262,3 +262,11 @@ using namespace std;
 //         break;
 //     }
 // }
+
+
+int main(){
+        cout<<"give me number and take me this number quare :- ";
+        int number;
+        cin>>number;
+        cout<<number*number;
+    }
