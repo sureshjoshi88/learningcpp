@@ -281,7 +281,7 @@ using namespace std;
 int main(){
     int p = 2;
     double l = 5;
-    double w = 8;
+    double w = 3;
     double total = p*(l+w);
     cout<<total;
 }
