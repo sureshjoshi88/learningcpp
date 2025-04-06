@@ -277,3 +277,11 @@ using namespace std;
 //     double area = pi*r*r;
 //     cout<<area;
 // }
+
+int main(){
+    int p = 2;
+    double l = 5;
+    double w = 8;
+    double total = p*(l+w);
+    cout<<total;
+}
