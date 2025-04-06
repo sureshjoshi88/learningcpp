@@ -278,10 +278,17 @@ using namespace std;
 //     cout<<area;
 // }
 
-int main(){
-    int p = 2;
-    double l = 5;
-    double w = 3;
-    double total = p*(l+w);
-    cout<<total;
-}
+// int main(){
+//     int p = 2;
+//     double l = 5;
+//     double w = 3;
+//     double total = p*(l+w);
+//     cout<<total;
+// }
+
+// int main(){
+//     int l = 9;
+//     int w = 5;
+//     int total = l*w;
+//     cout<<total;
+// }
