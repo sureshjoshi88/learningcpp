@@ -329,9 +329,21 @@ using namespace std;
 
 // }
 
+// int main(){
+//     int x = 5;
+//     int y = x++ - --x + ++x*x--;
+//     cout<<x<<"\n";
+//     cout<<y;
+// }
+
 int main(){
-    int x = 5;
-    int y = x++ - --x + ++x*x--;
-    cout<<x<<"\n";
-    cout<<y;
+int a = 3;
+int b = a++ * (++a + a--) - --a;
+cout<<a<<"\n";
+cout<<b<<"\n";
+
+
+int z = 0;
+z = z++ + z++ + ++z;
+cout<<z;
 }
