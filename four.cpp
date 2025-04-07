@@ -292,3 +292,25 @@ using namespace std;
 //     int total = l*w;
 //     cout<<total;
 // }
+
+// int main(){
+//     int x,y,z;
+//     cout<<"enter a number:-";
+//     cin>>x;
+//     cout<<"enter a number:-";
+//     cin>>y;
+//     cout<<"enter a number:-";
+//     cin>>z;
+//     int sum = x+y+z;
+//     cout<<sum;
+// }
+// int main(){
+//     string x,y;
+//     cout<<"enter a name ";
+//     getline(cin>>ws,x);
+//     cout<<"enter your second name ";
+//     getline(cin>>ws,y);
+//     cout<<x+y;
+    
+// }
+
