@@ -336,14 +336,14 @@ using namespace std;
 //     cout<<y;
 // }
 
-int main(){
-int a = 3;
-int b = a++ * (++a + a--) - --a;
-cout<<a<<"\n";
-cout<<b<<"\n";
+// int main(){
+// int a = 3;
+// int b = a++ * (++a + a--) - --a;
+// cout<<a<<"\n";
+// cout<<b<<"\n";
 
 
-int z = 0;
-z = z++ + z++ + ++z;
-cout<<z;
-}
+// int z = 0;
+// z = z++ + z++ + ++z;
+// cout<<z;
+// }
