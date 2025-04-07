@@ -314,3 +314,24 @@ using namespace std;
     
 // }
 
+
+
+//ternary operater
+
+// int main(){
+    // int num =20;
+    // num%2==0?"the number is even":"the number is od";
+    // int x = 90;
+    // x>=40?cout<<"you are pass":cout<<"you are fail";
+
+    // int x = 50;
+    // x>=33?cout<<"you are only pass"?x>=50?cout<<"yor are average"?x>=70?cout<<"you are good"?x>=90?cout<<"you are honest person":cout<<"yor are fail";
+
+// }
+
+int main(){
+    int x = 5;
+    int y = x++ - --x + ++x*x--;
+    cout<<x<<"\n";
+    cout<<y;
+}
