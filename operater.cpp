@@ -135,3 +135,32 @@ using namespace std;
 // }
 
 
+
+
+// bitwise operater
+// int main(){
+// int x = 4;
+// int y = 7;
+// int z = x&y;
+// cout<<z;
+
+
+// int x = 4;
+// int y = 7;
+// int z = x|y;
+// cout<<z;
+
+
+// int x = 4;
+// int y = 7;
+// int z = x^y;
+// cout<<z;
+
+// cout<<"enter your name = ";
+// string name;
+// cin>>name;
+// cout<<name;
+
+
+// }
+
