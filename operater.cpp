@@ -64,7 +64,7 @@ using namespace std;
 // }
 
 
-int main(){
+// int main(){
     // int i = 10;
     // int j = 20;
     // int k = i+j;
@@ -102,5 +102,36 @@ int main(){
     // a--;
     // cout<<a;
 
-    
-}
+
+// }
+
+// comparision operater
+
+// int main(){
+//     int x = 10;
+//     int y = 20;
+    // if(x==y){
+    //     cout<<"the number is equal";
+    // }else{
+    //     cout<<"the value is not equal";
+    // }
+    // if(x!=y){
+    //     cout<<"the number is equal";
+    // }else{
+    //     cout<<"the value is not equal";
+    // }
+    // if(x>y){
+    //     cout<<"the x is greater than y";
+    // }else{
+    //     cout<<"the value is not greater ";
+    // }
+    // if(x<y){
+    //     cout<<"the y is greater than x";
+    // }else{
+    //     cout<<"the value is not greater ";
+    // }
+
+
+// }
+
+
