@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main() {
+// int main() {
 
     // Ternary Operator
         
@@ -61,4 +61,46 @@ int main() {
 
     // Ternary Operator
     // we?: Condition Expression
+// }
+
+
+int main(){
+    // int i = 10;
+    // int j = 20;
+    // int k = i+j;
+    // cout<<k;
+
+    // int i = 10;
+    // int j = 20;
+    // int k = j-i;
+    // cout<<k;
+
+    // int i = 10;
+    // int j = 20;
+    // int k = i*j;
+    // cout<<k;
+
+
+    // int i = 60;
+    // int j = 20;
+    // int k = i/j;
+    // cout<<k;
+
+
+
+    // int i = 600;
+    // int j = 31;
+    // int k = i%j;
+    // cout<<k;
+
+    // int a = 10;
+    // a++;
+    // cout<<a;
+
+
+    // int a = 10;
+    // a--;
+    // cout<<a;
+
+    
 }
