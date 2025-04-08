@@ -117,3 +117,41 @@ using namespace std;
 //     cin>>number;
 //     cout<<number*number;
 // }
+
+
+
+// -> * ,  / <- , kilo  hecta  Deca  metre  deci  centi  Milli
+
+int main(){
+    cout<<"entre you conver name :- ";
+    string name;
+    cin>>name;
+    cout<<"Enter your converted name :- ";
+    string name1;
+    cin>>name1;
+    cout<<"entre your value";
+    int number;
+    cin>>number;
+    if(name=="kilo" && name1=="gram"){
+        cout<<number*1000<<" gram ";
+    }else if(name=="gram" && name1=="kilo"){
+        cout<<number/1000<<" kg";
+
+    }else if(name=="miter" && name1=="kilomiter"){
+        cout<<number/1000<<" kilomiter";
+
+    }else if(name=="kilomiter" && name1=="miter"){
+        cout<<number*1000<<" miter";
+
+    }else if(name=="miter" && name1=="sentimiter"){
+        cout<<number*100<<" sentimiter";
+    }else if(name=="sentimiter" && name1=="miter"){
+        cout<<number/100<<" miter";
+    }else if(name=="milimiter" && name1=="miter"){
+        cout<<number/1000<<" miter";
+    }else if(name=="miter" && name1=="milimiter"){
+        cout<<number*1000<<" milimiter";
+    }else{
+        cout<<"some thing went wrong plese try again and valid name";
+    }
+}
