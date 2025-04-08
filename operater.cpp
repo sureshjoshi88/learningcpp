@@ -164,3 +164,21 @@ using namespace std;
 
 // }
 
+// logical operator
+
+int main(){
+    // int age = 7;
+    // if(age>5 && age<9){
+    //     cout<<"child";
+    // }else{
+    //     cout<<"younger";
+    // }
+
+    // int age = 7;
+    // if(age<5 || age<9){
+    //     cout<<"child";
+    // }else{
+    //     cout<<"younger";
+    // }
+    
+}
