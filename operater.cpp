@@ -166,7 +166,7 @@ using namespace std;
 
 // logical operator
 
-int main(){
+// int main(){
     // int age = 7;
     // if(age>5 && age<9){
     //     cout<<"child";
@@ -180,5 +180,16 @@ int main(){
     // }else{
     //     cout<<"younger";
     // }
-    
-}
+
+// }
+
+
+// assingment operator
+
+// int main(){
+// int x = 4;//  the asing vlaue
+// // int y = x+4;
+//  x+=6;
+// cout<<x;
+
+// }
