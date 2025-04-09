@@ -158,14 +158,22 @@ using namespace std;
 
 
 
-int main(){
+// int main(){
 
-//     for(int i =2; i<=512;i*=2){
-//         cout<<i<<"\n";
+// //     for(int i =2; i<=512;i*=2){
+// //         cout<<i<<"\n";
+// // }
+
+// for(int i = 5;i<=50;i+=5){
+//     cout<<i<<"\n";
 // }
 
-for(int i = 5;i<=50;i+=5){
-    cout<<i<<"\n";
-}
+// }
+
+
+int main(){
+    string cars[4] = {"scorepio","volvo","creata","camper"};
+    cout<<cars[3];
+    
 
 }
