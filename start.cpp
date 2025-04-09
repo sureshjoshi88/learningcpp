@@ -130,26 +130,26 @@ int main(){
     string name1;
     cin>>name1;
     cout<<"entre your value";
-    int number;
+    double number;
     cin>>number;
     if(name=="kilo" && name1=="gram"){
         cout<<number*1000<<" gram ";
-    }else if(name=="gram" || name=="GRAM"&& name1=="kilo" || name1=="KILO"){
+    }else if(name=="gram" && name1=="kilo" ){
         cout<<number/1000<<" kg";
 
-    }else if(name=="miter" || name=="MITER" && name1=="kilomiter" ||name1=="KILOMITER" ){
+    }else if(name=="miter"  && name1=="kilomiter" ){
         cout<<number/1000<<" kilomiter";
 
-    }else if(name=="kilomiter" || name=="KILOMITER" && name1=="miter" || name1=="MITER"){
+    }else if(name=="kilomiter"  && name1=="miter" ){
         cout<<number*1000<<" miter";
 
-    }else if(name=="miter" || name=="MITER"&& name1=="sentimiter" || name1=="SENTIMITER"){
+    }else if(name=="miter" && name1=="sentimiter" ){
         cout<<number*100<<" sentimiter";
-    }else if(name=="sentimiter" || name=="SENTIMITER" && name1=="miter" || name1=="MITER"){
+    }else if(name=="sentimiter"  && name1=="miter" ){
         cout<<number/100<<" miter";
-    }else if(name=="milimiter" || name=="MILIMITER" && name1=="miter" || name1=="MITER"){
+    }else if(name=="milimiter"  && name1=="miter"  ){
         cout<<number/1000<<" miter";
-    }else if(name=="miter" || name=="MITER" && name1=="milimiter" || name1=="MILIMITER"){
+    }else if(name=="miter" && name1=="milimiter" ){
         cout<<number*1000<<" milimiter";
     }else{
         cout<<"some thing went wrong plese try again and valid name";
