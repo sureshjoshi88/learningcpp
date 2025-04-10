@@ -134,7 +134,7 @@ using namespace std;
 //     cin>>number;
 //     if(name=="kilo" && name1=="gram"){
 //         cout<<number*1000<<" gram ";
-//     }else if(name=="gram" && name1=="kilo" ){
+//     }else if(name=="gram"  && name1=="kilo" ){
 //         cout<<number/1000<<" kg";
 
 //     }else if(name=="miter"  && name1=="kilomiter" ){
@@ -187,3 +187,17 @@ using namespace std;
 // }
 
 
+// int main(){
+//     cout<<"entre you conver name :- ";
+//         string name;
+//         cin>>name;
+//         cout<<"Enter your converted name :- ";
+//         string name1;
+//         cin>>name1;
+//         cout<<"entre your value";
+//         double number;
+//         cin>>number;
+//          if((name=="milimiter" || name=="MILIMITER") &&( name1=="miter"||name1=="MITER" )){
+//                     cout<<number/1000<<" miter";
+//                 }
+// }

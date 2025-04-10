@@ -14,13 +14,20 @@ using namespace std;
     
 // }
 
-int main(){
-    int num[6] = {1,2,3,4,5,6};
-    for(int i = 0;i<6;i++){
-        if(num[i]%2==0){
-            cout<<num[i]<<"the number is even"<<"\n";
-        }else{
-            cout<<num[i]<<"the number is odd"<<"\n";
-        }
-    }
-}
+// int main(){
+//     int num[6] = {1,2,3,4,5,6};
+//     for(int i = 0;i<6;i++){
+//         if(num[i]%2==0){
+//             cout<<num[i]<<"the number is even"<<"\n";
+//         }else{
+//             cout<<num[i]<<"the number is odd"<<"\n";
+//         }
+//     }
+// }
+
+// int main(){
+//     int nums[4] = {1,2,4,6};
+//     for(int i : nums){
+//         cout<<i<<"\n";
+//     }
+// }
