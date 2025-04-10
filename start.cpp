@@ -179,9 +179,11 @@ using namespace std;
 // }
 
 
-int main(){
-    string names[5] = {"suresh","ankit","rahul","neeraj","vikash"};
-    for(int i = 0;i<=5;i++){
-        cout<<names[i]<<"\n";
-    }
-}
+// int main(){
+//     string names[5] = {"suresh","ankit","rahul","neeraj","vikash"};
+//     for(int i = 0;i<=5;i++){
+//         cout<<names[i]<<"\n";
+//     }
+// }
+
+
