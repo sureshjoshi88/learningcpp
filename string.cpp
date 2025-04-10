@@ -39,15 +39,15 @@ using namespace std;
 
 
 
-int main(){
-    string name = "suresh";
-    // cout<<name.length();
-    // cout<<name.empty();
-    // name.clear();
-    // cout<<name;
-    // cout<<name.append("joshi");
-    // cout<<name.at(4);
-    // cout<<name.insert(1,"i");
-    // cout<<name.find("u");
-    // cout<<name.erase();
-}
+// int main(){
+    // string name = "suresh";
+//     // cout<<name.length();
+//     // cout<<name.empty();
+//     // name.clear();
+//     // cout<<name;
+//     // cout<<name.append("joshi");
+//     // cout<<name.at(4);
+//     // cout<<name.insert(1,"i");
+//     // cout<<name.find("u");
+    // cout<<name.erase(0,4);
+// }
