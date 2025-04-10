@@ -171,9 +171,17 @@ using namespace std;
 // }
 
 
-int main(){
-    string cars[4] = {"scorepio","volvo","creata","camper"};
-    cout<<cars[3];
+// int main(){
+//     string cars[4] = {"scorepio","volvo","creata","camper"};
+//     cout<<cars[3];
     
 
+// }
+
+
+int main(){
+    string names[5] = {"suresh","ankit","rahul","neeraj","vikash"};
+    for(int i = 0;i<=5;i++){
+        cout<<names[i]<<"\n";
+    }
 }
