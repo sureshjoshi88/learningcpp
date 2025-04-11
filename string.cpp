@@ -51,3 +51,19 @@ using namespace std;
 //     // cout<<name.find("u");
     // cout<<name.erase(0,4);
 // }
+
+
+// int main(){
+//     string name = "suresh";
+//     // name.append(" joshi");
+//     // cout<<name.at(3);
+//     // name.clear();
+//     // name.erase(0,3);
+//     // cout<<name.empty();
+//         // cout<<name.length();
+//         // cout<<name.size();
+//     // cout<<name;
+//     // cout<<name.insert(6," joshi");
+//     cout<<name.find("u");
+
+// }
