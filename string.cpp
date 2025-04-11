@@ -67,3 +67,8 @@ using namespace std;
 //     cout<<name.find("u");
 
 // }
+
+int main(){
+    string word = "hello how are you";
+    cout<<word.length();
+}
