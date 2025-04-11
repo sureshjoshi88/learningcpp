@@ -31,3 +31,26 @@ using namespace std;
 //         cout<<i<<"\n";
 //     }
 // }
+
+
+int main(){
+    int number[]= {10,33,653,6643,43,87,67,98,30,21,11};
+    cout<<"enter your value";
+    int x ;
+    cin>>x; 
+    int lengths = sizeof(number)/sizeof(number[0]);
+    bool found = false;
+    for (int i = 0; i < lengths; i++){
+        if(number[i]==x){
+            found = true;
+            break;
+        }
+
+    }
+    if(found){
+        cout<<"the number is include"<<"\n";
+    }else{
+        cout<<"the number is not for present \n";
+    }
+    
+}
