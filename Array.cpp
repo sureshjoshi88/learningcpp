@@ -34,7 +34,7 @@ using namespace std;
 
 
 int main(){
-    int number[]= {10,33,653,6643,43,87,67,98,30,21,11};
+    int number[]= {10,33,653,6643,43,87,67,98,30,21,11,232};
     cout<<"enter your value";
     int x ;
     cin>>x; 
@@ -45,7 +45,6 @@ int main(){
             found = true;
             break;
         }
-
     }
     if(found){
         cout<<"the number is include"<<"\n";
