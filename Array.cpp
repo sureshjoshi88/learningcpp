@@ -58,7 +58,7 @@ int main(){
     int arr[] = {2,43,3,9,8,80,32,11,25,65};
     int size = sizeof(arr)/sizeof(arr[0]);
     for (int i = 0; i < size; i++)  {
-        cout<<arr[i]*2;
+        cout<<arr[i]*2<<"\n";
     }
      
 }
