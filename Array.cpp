@@ -33,33 +33,32 @@ using namespace std;
 // }
 
 
-int main(){
-    int number[]= {10,33,653,6643,43,87,67,98,30,21,11,232};
-    cout<<"enter your value";
-    int x ;
-    cin>>x; 
-    int lengths = sizeof(number)/sizeof(number[0]);
-    bool found = false;
-    for (int i = 0; i < lengths; i++){
-        if(number[i]==x){
-            found = true;
-            break;
-        }
-    }
-    if(found){
-        cout<<"the number is include"<<"\n";
-    }else{
-        cout<<"the number is not for present \n";
-    }
+// int main(){
+//     int number[]= {10,33,653,6643,43,87,67,98,30,21,11,232};
+//     cout<<"enter your value";
+//     int x ;
+//     cin>>x; 
+//     int lengths = sizeof(number)/sizeof(number[0]);
+//     bool found = false;
+//     for (int i = 0; i < lengths; i++){
+//         if(number[i]==x){
+//             found = true;
+//             break;
+//         }
+//     }
+//     if(found){
+//         cout<<"the number is include"<<"\n";
+//     }else{
+//         cout<<"the number is not for present \n";
+//     }
     
-}
+// }
 
 int main(){
     int arr[] = {2,43,3,9,8,80,32,11,25,65};
-    int size = sizeof(arr)/sizeof(arr[0])
-    for (int i = 0; i < count; i++)
-    {
-        /* code */
+    int size = sizeof(arr)/sizeof(arr[0]);
+    for (int i = 0; i < size; i++)  {
+        cout<<arr[i]*2;
     }
      
 }
