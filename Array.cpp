@@ -64,21 +64,19 @@ using namespace std;
 // }
 
 
-int main(){
-    cout<<"enter a number:- ";
-    int x ;
-    cin>>x;
-    int arr[] = {2,3,4,5,6,7,8};
-    int length = sizeof(arr)/sizeof(arr[0]);
-    for (int i = 0; i < length; i++) {
-        if(arr[i]==x){
-            int factroil =1;
-            for (int i = x; i>=1; i--) {
-                 factroil = factroil*i;
-            }
-            cout<<factroil<<"\n";
-        }
-    }
-    
-
-}
+// int main(){
+//     cout<<"enter a number:- ";
+//     int x ;
+//     cin>>x;
+//     int arr[] = {2,3,4,5,6,7,8};
+//     int length = sizeof(arr)/sizeof(arr[0]);
+//     for (int i = 0; i < length; i++) {
+//         if(arr[i]==x){
+//             int factroil =1;
+//             for (int i = x; i>=1; i--) {
+//                  factroil = factroil*i;
+//             }
+//             cout<<factroil<<"\n";
+//         }
+//     }
+// }

@@ -68,7 +68,7 @@ using namespace std;
 
 // }
 
-int main(){
-    string word = "hello how are you";
-    cout<<word.length();
-}
+// int main(){
+//     string word = "hello how are you";
+//     cout<<word.length();
+// }
