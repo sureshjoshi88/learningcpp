@@ -74,8 +74,8 @@ using namespace std;
 // }
 
 
-int main(){
-    string a = "suresh";
-    // cout<<a.size();
-    cout<<a.insert(6," joshi");
-}
+// int main(){
+//     string a = "suresh";
+//     // cout<<a.size();
+//     cout<<a.insert(6," joshi");
+// }
