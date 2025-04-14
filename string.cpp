@@ -72,3 +72,9 @@ using namespace std;
 //     string word = "hello how are you";
 //     cout<<word.length();
 // }
+
+
+int main(){
+    string a = "suresh";
+    cout<<a.size();
+}
