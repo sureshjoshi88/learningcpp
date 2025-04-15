@@ -79,3 +79,12 @@ using namespace std;
 //     // cout<<a.size();
 //     cout<<a.insert(6," joshi");
 // }
+
+
+// int main(){
+//     string name;
+//     cout<<"Enter a name :- ";
+//     cin>>name;
+//     cout<<name.length();
+
+// }
