@@ -39,7 +39,7 @@ using namespace std;
     
 // }
 
-int main(){
+// int main(){
     // for (int i = 0; i < 6; i++) {
     //     cout<<" "<<"\n";
     //     for (int j = 0; j < i; j++)
@@ -49,17 +49,125 @@ int main(){
     // }
 
 
-    for (int i = 0; i < 6; i++){
-        cout<<"*"<<"\n";
-        for (int j = 0; j <i; j++){
-            cout<<" ";
-                }
-                for (int z = 0; z < i; z++)
-                {
-                    cout<<"*";
-                                }
+    // for (int i = 1; i < 6; i++){
+    //     cout<<"*"<<"\n";
+    //     for (int j = 0; j <i; j++){
+    //         cout<<" ";
+    //             }
+    //             for (int z = 0; z < i; z++)
+    //             {
+    //                 cout<<"*";
+    //                             }
                 
         
-        }
+    //     }
+    
+// }
+
+
+int main(){
+    // cout<<"Enter a number";
+    // int row;
+    // cin>>row;
+    // for (int i = 1; i <=row; i++)
+    // {
+    //     for (int j = 1; j <= i; j++)
+    //     {
+    //         cout<<j<<" ";
+    //     }
+    //     cout<<"\n";
+        
+    // }
+
+
+    // char input, alphabate = 'A';
+    // cout<<"Enter the uppercase character you want to print in the last row:";
+    // cin>>input;
+    // toupper(input);
+    // for (int i = 1; i <=(input-'A'+1); i++) {
+    //    for (int j = 1; j <=i; j++){
+    //     cout<<alphabate<<" ";
+    //    }
+    //    alphabate++;
+    //    cout<<endl;
+       
+    // }
+    
+    // cout<<"Enter a number";
+    // int row;
+    // cin>>row;
+    // for (int i = row; i >= 1; i--) {
+    //    for (int j = 1; j <= i; j++) {
+    //     cout<<"* ";
+    //    }
+    //    cout<<"\n";
+       
+    // }
+    
+
+// cout<<"Enter a number";
+//     int row;
+//     cin>>row;
+//     for (int i = row; i >=1; i--)
+//     {
+//         for (int j = 1; j <= i; j++)
+//         {
+//             cout<<j<<" ";
+//         }
+//         cout<<"\n";
+        
+//     }
+
+// int space, row;
+// cout<<"Enter number of row";
+// cin>>row;
+// for (int i = 1, k = 0 ;i <= row; i++,k=0){
+//     for (space=1; space <= row-i; space++){
+//         cout<<"  ";
+//     }
+//     while (k!=2*i-1) {
+//         cout<<"* ";
+//         k++;
+//     }
+//     cout<<"\n";
+    
+    
+// }
+
+
+// int space, row;
+// cout<<"Enter number of row";
+// cin>>row;
+// for (int i = 1, k = 0 ;i <= row; i++,k=0){
+//     for (space=1; space <= row-i; space++){
+//         cout<<"  ";
+//     }
+//     while (k!=2*i-1) {
+//         cout<<i<<" ";
+//         k++;
+//     }
+//     cout<<"\n";
+    
+    
+// }
+
+int row,space;
+cout<<"ENter a number";
+cin>>row;
+for (int i = 1; i <=row; i++){
+    for (space = 1; space <= row-i; space++)
+    {
+        cout<<" ";
+    }
+   
+    for (int z = 1; z <= i; z++)
+    {
+        cout<<z<<" ";
+    }
+    cout<<endl;
+    
+    
+}
+
     
 }
