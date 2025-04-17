@@ -27,14 +27,26 @@ using namespace std;
 // }
 
 
-int main(){
-    int even = 0;
-    for (int i = 1; i <=55; i++){
+// int main(){
+//     int even = 0;
+//     for (int i = 1; i <=55; i++){
 
-        if(i%2==0){
-            even++;
+//         if(i%2==0){
+//             even++;
+//         }
+//         }
+//         cout<<even;
+    
+// }
+
+int main(){
+    for (int i = 0; i < 6; i++) {
+        cout<<" "<<"\n";
+        for (int j = 0; j < i; j++)
+        {
+            cout<<"*";
         }
-        }
-        cout<<even;
+        
+    }
     
 }
