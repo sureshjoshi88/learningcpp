@@ -151,23 +151,46 @@ int main(){
     
 // }
 
-int row,space;
-cout<<"ENter a number";
-cin>>row;
-for (int i = 1; i <=row; i++){
-    for (space = 1; space <= row-i; space++)
-    {
-        cout<<" ";
-    }
+// int row,space;
+// cout<<"ENter a number";
+// cin>>row;
+// for (int i = 1; i <=row; i++){
+//     for (space = 1; space <= row-i; space++)
+//     {
+//         cout<<" ";
+//     }
    
-    for (int z = 1; z <= i; z++)
-    {
-        cout<<z<<" ";
-    }
-    cout<<endl;
+//     for (int z = 1; z <= i; z++)
+//     {
+//         cout<<z<<" ";
+//     }
+//     cout<<endl;
     
     
-}
+// }
 
+
+
+    int space;
+    cout<<"enter a number";
+    int num;
+    cin>>num;
+    for (int i = 1; i <= num; i++) {
+       for (int j = 1; j < num-i; j++){
+        cout<<"  ";
+       }
+       for (int k = 1; k < i; k++)
+       {
+        cout<<k;
+       }
+       for (int l = 1; l < i; l++)
+       {
+        cout<<" ";
+       }
+       
+       cout<<endl;
+       
+        
+    }
     
 }
