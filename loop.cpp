@@ -1,5 +1,7 @@
 #include <iostream>
 using namespace std;
+#include <cmath>
+#include <ctime>
 
 
 // int main(){
@@ -65,7 +67,7 @@ using namespace std;
 // }
 
 
-int main(){
+// int main(){
     // cout<<"Enter a number";
     // int row;
     // cin>>row;
@@ -194,4 +196,15 @@ int main(){
     // }
     
     
+// }
+
+
+
+int main(){
+//     int num = srand(1);
+//     cout<<num;
+int num = time(NULL);
+int number = rand();
+cout<<number<<"\n";
+cout<<num;
 }
