@@ -2,6 +2,7 @@
 using namespace std;
 #include <cmath>
 #include <ctime>
+#include <cstdlib>
 
 
 // int main(){
@@ -200,11 +201,8 @@ using namespace std;
 
 
 
-int main(){
-//     int num = srand(1);
+// int main(){
+//     int num = rand(time(NULL));
 //     cout<<num;
-int num = time(NULL);
-int number = rand();
-cout<<number<<"\n";
-cout<<num;
-}
+
+// }
