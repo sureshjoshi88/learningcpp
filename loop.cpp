@@ -209,7 +209,7 @@ using namespace std;
 
 int main() {
     srand(time(0));
-    int x = rand() % 100 + 1;
+    int x = rand() % 10 + 1;
   
     int num;
     cout << "Enter your guess: ";
