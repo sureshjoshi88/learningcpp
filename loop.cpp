@@ -206,3 +206,23 @@ using namespace std;
 //     cout<<num;
 
 // }
+
+int main() {
+    srand(time(0));
+    int x = rand() % 100 + 1;
+  
+    int num;
+    cout << "Enter your guess: ";
+    cin >> num;
+  
+    while (num != x) {
+      if (num > x) {
+        cout << "Too high, try again: ";
+      } else {
+        cout << "Too low, try again: ";
+      }
+      cin >> num;
+    }
+  
+    cout << "congruation" << endl;
+  }
