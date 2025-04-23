@@ -141,7 +141,7 @@ using namespace std;
 
 int main(){
     int accountNumber = 882436;
-    int inputnumber, charge,balnce=0;
+    int inputnumber, charge,balnce=1000;
     cout<<"Enter your accountnumber:- ";
     cin>>inputnumber;
     if(accountNumber==inputnumber){
@@ -159,8 +159,12 @@ int main(){
             cout<<"please enter a amount";
             int money;
             cin>>money;
-           balnce-=money;
-            cout<<"your total amount = "<<balnce;
+            if(money<balnce){
+                balnce-=money;
+                 cout<<"your total amount = "<<balnce;
+            }else{
+                cout<<"Insufficient balance!";
+            }
         }else if(value==3){
             cout<<"your total amount = "<<balnce;
         }else if(value==4){
