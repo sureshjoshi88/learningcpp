@@ -80,3 +80,59 @@ using namespace std;
 //         }
 //     }
 // }
+
+int main(){
+    int accountnumber = 787840;
+    int bal = 0, charge, amount;
+    int userInput ;
+
+    cout << "Enter accountnumber :";
+    cin >> userInput;
+    
+
+    if (accountnumber == userInput)
+    {
+
+        while (accountnumber==userInput)
+        {
+
+            cout << "1.Deposite 2.withdraw 3.Balnce 4.Exit" << "\n";
+            cout << "Please enter only one option : ";
+            cin >> charge;
+
+            if (charge == 1)
+            {
+                cout << "Enter your Deposit Value : ";
+                cin >> amount;
+                bal += amount;
+            }
+            else if (charge == 2)
+            {
+                cout << "Enter your withdraw value : ";
+                cin >> amount;
+                if (amount <= bal)
+                {
+                    bal -= amount;
+                }
+            }
+            else if (charge == 3)
+            {
+                cout << bal << endl;
+            }
+            else if (charge == 4)
+            {
+                cout<<"you are exit. Thank you!";
+            }
+        }
+        // break;
+    }else{
+        cout<<"Enter your correct account number" <<"\n";
+        while (userInput!=accountnumber)
+        {   
+            cout<<"AccounNumber is not match. Please try ! again : ";
+            cin>>userInput;
+        }
+        
+}
+
+}
