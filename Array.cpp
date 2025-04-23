@@ -81,58 +81,88 @@ using namespace std;
 //     }
 // }
 
-int main(){
-    int accountnumber = 787840;
-    int bal = 0, charge, amount;
-    int userInput ;
+// int main(){
+//     int accountnumber = 787840;
+//     int bal = 0, charge, amount;
+//     int userInput ;
 
-    cout << "Enter accountnumber :";
-    cin >> userInput;
+//     cout << "Enter accountnumber :";
+//     cin >> userInput;
     
 
-    if (accountnumber == userInput)
-    {
+//     if (accountnumber == userInput)
+//     {
 
-        while (accountnumber==userInput)
-        {
+//         while (accountnumber==userInput)
+//         {
 
-            cout << "1.Deposite 2.withdraw 3.Balnce 4.Exit" << "\n";
-            cout << "Please enter only one option : ";
-            cin >> charge;
+//             cout << "1.Deposite 2.withdraw 3.Balnce 4.Exit" << "\n";
+//             cout << "Please enter only one option : ";
+//             cin >> charge;
 
-            if (charge == 1)
-            {
-                cout << "Enter your Deposit Value : ";
-                cin >> amount;
-                bal += amount;
-            }
-            else if (charge == 2)
-            {
-                cout << "Enter your withdraw value : ";
-                cin >> amount;
-                if (amount <= bal)
-                {
-                    bal -= amount;
-                }
-            }
-            else if (charge == 3)
-            {
-                cout << bal << endl;
-            }
-            else if (charge == 4)
-            {
-                cout<<"you are exit. Thank you!";
-            }
-        }
-        // break;
-    }else{
-        cout<<"Enter your correct account number" <<"\n";
-        while (userInput!=accountnumber)
-        {   
-            cout<<"AccounNumber is not match. Please try ! again : ";
-            cin>>userInput;
-        }
+//             if (charge == 1)
+//             {
+//                 cout << "Enter your Deposit Value : ";
+//                 cin >> amount;
+//                 bal += amount;
+//                 cout<<bal;
+//             }
+//             else if (charge == 2)
+//             {
+//                 cout << "Enter your withdraw value : ";
+//                 cin >> amount;
+//                 if (amount <= bal)
+//                 {
+//                     bal -= amount;
+//                 }
+//             }
+//             else if (charge == 3)
+//             {
+//                 cout << bal << endl;
+//             }
+//             else if (charge == 4)
+//             {
+//                 cout<<"you are exit. Thank you!";
+//             }
+//         }
+//         // break;
+//     }else{
+//         cout<<"Enter your correct account number" <<"\n";
+//         while (userInput!=accountnumber)
+//         {   
+//             cout<<"AccounNumber is not match. Please try ! again : ";
+//             cin>>userInput;
+//         }
         
-}
+// }
 
+// }
+
+
+int main(){
+    int accountNumber = 882436;
+    int inputnumber, charge,balnce=0;
+    cout<<"Enter your accountnumber:- ";
+    cin>>inputnumber;
+    if(accountNumber==inputnumber){
+        cout<<"1.Deposite 2.withdraw 3.Balnce 4.Exit"<<"\n";
+        cout<<"please salect one value number";
+        int value;
+        cin>>value;
+        if(value==1){
+            cout<<"please enter a amount";
+            int money;
+            cin>>money;
+            int total_balnce = balnce+=money;
+            cout<<"your total amount = "<<total_balnce;
+        }else if(value==2){
+            cout<<"please enter a amount";
+            int money;
+            cin>>money;
+            int total_balnce = balnce-=money;
+            cout<<"your total amount = "<<total_balnce;
+        }
+    }else{
+        cout<<"please try again do not match in account number !";
+    }
 }
