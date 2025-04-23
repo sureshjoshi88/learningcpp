@@ -153,14 +153,20 @@ int main(){
             cout<<"please enter a amount";
             int money;
             cin>>money;
-            int total_balnce = balnce+=money;
-            cout<<"your total amount = "<<total_balnce;
+             balnce+=money;
+            cout<<"your total amount = "<<balnce;
         }else if(value==2){
             cout<<"please enter a amount";
             int money;
             cin>>money;
-            int total_balnce = balnce-=money;
-            cout<<"your total amount = "<<total_balnce;
+           balnce-=money;
+            cout<<"your total amount = "<<balnce;
+        }else if(value==3){
+            cout<<"your total amount = "<<balnce;
+        }else if(value==4){
+            cout<<"your are exitest in this account";
+        }else{
+            cout<<"you are wrong number salect";
         }
     }else{
         cout<<"please try again do not match in account number !";
