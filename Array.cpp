@@ -139,40 +139,46 @@ using namespace std;
 // }
 
 
+// int main(){
+//     int accountNumber = 882436;
+//     int inputnumber, charge,balnce=1000;
+//     cout<<"Enter your accountnumber:- ";
+//     cin>>inputnumber;
+//     if(accountNumber==inputnumber){
+//         cout<<"1.Deposite 2.withdraw 3.Balnce 4.Exit"<<"\n";
+//         cout<<"please salect one value number";
+//         int value;
+//         cin>>value;
+//         if(value==1){
+//             cout<<"please enter a amount";
+//             int money;
+//             cin>>money;
+//              balnce+=money;
+//             cout<<"your total amount = "<<balnce;
+//         }else if(value==2){
+//             cout<<"please enter a amount";
+//             int money;
+//             cin>>money;
+//             if(money<balnce){
+//                 balnce-=money;
+//                  cout<<"your total amount = "<<balnce;
+//             }else{
+//                 cout<<"Insufficient balance!";
+//             }
+//         }else if(value==3){
+//             cout<<"your total amount = "<<balnce;
+//         }else if(value==4){
+//             cout<<"your are exitest in this account";
+//         }else{
+//             cout<<"you are wrong number salect";
+//         }
+//     }else{
+//         cout<<"please try again do not match in account number !";
+//     }
+// }
+
+
 int main(){
-    int accountNumber = 882436;
-    int inputnumber, charge,balnce=1000;
-    cout<<"Enter your accountnumber:- ";
-    cin>>inputnumber;
-    if(accountNumber==inputnumber){
-        cout<<"1.Deposite 2.withdraw 3.Balnce 4.Exit"<<"\n";
-        cout<<"please salect one value number";
-        int value;
-        cin>>value;
-        if(value==1){
-            cout<<"please enter a amount";
-            int money;
-            cin>>money;
-             balnce+=money;
-            cout<<"your total amount = "<<balnce;
-        }else if(value==2){
-            cout<<"please enter a amount";
-            int money;
-            cin>>money;
-            if(money<balnce){
-                balnce-=money;
-                 cout<<"your total amount = "<<balnce;
-            }else{
-                cout<<"Insufficient balance!";
-            }
-        }else if(value==3){
-            cout<<"your total amount = "<<balnce;
-        }else if(value==4){
-            cout<<"your are exitest in this account";
-        }else{
-            cout<<"you are wrong number salect";
-        }
-    }else{
-        cout<<"please try again do not match in account number !";
-    }
+int arr[5] = {2,4,6,8,5};
+
 }
