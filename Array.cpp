@@ -187,11 +187,24 @@ using namespace std;
 
 
 // }
-int main(){
-    string names[] = {"suresh","neeraj","ankit","rahul","vikash"};
-    for (int i = 0; i < 5; i++)
-    {
-       cout<<names[i]<<"\n";
-    }
+// int main(){
+//     string names[] = {"suresh","neeraj","ankit","rahul","vikash"};
+//     for (int i = 0; i < 5; i++)
+//     {
+//        cout<<names[i]<<"\n";
+//     }
     
+// }
+
+int main(){
+    int numarr[] = {12,33,43,56,54,78,98,65,38};
+    int num =sizeof(numarr[0]);
+    int total = sizeof(numarr);
+    int length = total/num;
+    int sum = 0;
+    for (int i = 0; i < length; i++)
+    {
+         sum+=numarr[i];
+    }
+    cout<<sum;
 }
