@@ -205,6 +205,9 @@ int main(){
     for (int i = 0; i < length; i++)
     {
          sum+=numarr[i];
+         cout<<numarr[i]*numarr[i]<<"\n";
     }
     cout<<sum;
+
 }
+
