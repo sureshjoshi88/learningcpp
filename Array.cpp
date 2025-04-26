@@ -211,10 +211,10 @@ using namespace std;
 
 // }
 
-int main(){
-    int myarray[]={1,23,43,54,65,56,45,76,88,04,34};
-    for(int aray : myarray){
+// int main(){
+//     int myarray[]={1,23,43,54,65,56,45,76,88,04,34};
+//     for(int aray : myarray){
 
-        cout<<aray;
-    }
-}
+//         cout<<aray<<endl;
+//     }
+// }
