@@ -196,18 +196,25 @@ using namespace std;
     
 // }
 
+// int main(){
+//     int numarr[] = {12,33,43,56,54,78,98,65,38};
+//     int num =sizeof(numarr[0]);
+//     int total = sizeof(numarr);
+//     int length = total/num;
+//     int sum = 0;
+//     for (int i = 0; i < length; i++)
+//     {
+//          sum+=numarr[i];
+//          cout<<numarr[i]*numarr[i]<<"\n";
+//     }
+//     cout<<sum;
+
+// }
+
 int main(){
-    int numarr[] = {12,33,43,56,54,78,98,65,38};
-    int num =sizeof(numarr[0]);
-    int total = sizeof(numarr);
-    int length = total/num;
-    int sum = 0;
-    for (int i = 0; i < length; i++)
-    {
-         sum+=numarr[i];
-         cout<<numarr[i]*numarr[i]<<"\n";
+    int myarray[]={1,23,43,54,65,56,45,76,88,04,34};
+    for(int aray : myarray){
+
+        cout<<aray;
     }
-    cout<<sum;
-
 }
-
