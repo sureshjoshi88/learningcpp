@@ -219,16 +219,30 @@ using namespace std;
 //     }
 // }
 
+// int main(){
+//     int aray[] = {12,34,65,8,75,5,67,68,54,35};
+//     int size = sizeof(aray);
+//     int max  = aray[0];
+//     int length = size/sizeof(aray[0]);
+//     for (int i = 0; i <length; i++) {
+//         if(aray[i]>max){
+//             max =aray[i];
+//         }
+//     }
+//     cout<<max;
+    
+// }
+
 int main(){
     int aray[] = {12,34,65,8,75,5,67,68,54,35};
     int size = sizeof(aray);
-    int max  = aray[0];
+    int small  = aray[0];
     int length = size/sizeof(aray[0]);
     for (int i = 0; i <length; i++) {
-        if(aray[i]>max){
-            max =aray[i];
+        if(aray[i]<small){
+            small =aray[i];
         }
     }
-    cout<<max;
+    cout<<small;
     
 }
