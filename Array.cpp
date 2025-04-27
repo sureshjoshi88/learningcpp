@@ -233,16 +233,32 @@ using namespace std;
     
 // }
 
-int main(){
-    int aray[] = {12,34,65,8,75,5,67,68,54,35};
-    int size = sizeof(aray);
-    int small  = aray[0];
-    int length = size/sizeof(aray[0]);
-    for (int i = 0; i <length; i++) {
-        if(aray[i]<small){
-            small =aray[i];
-        }
-    }
-    cout<<small;
+// int main(){
+//     int aray[] = {12,34,65,8,75,5,67,68,54,35};
+//     int size = sizeof(aray);
+//     int small  = aray[0];
+//     int length = size/sizeof(aray[0]);
+//     for (int i = 0; i <length; i++) {
+//         if(aray[i]<small){
+//             small =aray[i];
+//         }
+//     }
+//     cout<<small;
     
+// }
+
+
+int main(){
+    int averge[] = {12,10,20,40,44,65,82,18,67};
+    int size = sizeof(averge[0]);
+    int length = sizeof(averge)/size;
+    int sum = 0;
+    for (int i = 0; i < length; i++) {
+        sum+=averge[i];
+    }
+    int avergearay= sum/length;
+
+    cout<<avergearay;
+    
+
 }
