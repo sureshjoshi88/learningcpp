@@ -267,17 +267,17 @@ using namespace std;
 int main(){
     int num[]={14,54,67,98,34,23};
     int size = sizeof(num);
-    int small  = num[0];
+    int largest  = num[0];
     int seconlargest = 1;
     int length = size/sizeof(num[0]);
     for(int i = 0;i<length;i++){
-        if(num[i]>small){
-            small = num[i];
+        if(num[i]>largest){
+            largest = num[i];
         }
     }
     for (int i = 0; i < length; i++)
     {
-       if(num[i]!=small){
+       if(num[i]!=largest){
         if(num[i]>seconlargest){
             seconlargest = num[i];
         }
