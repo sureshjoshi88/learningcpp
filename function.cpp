@@ -8,14 +8,22 @@ using namespace std;
 //     number();
 // }
 
-int evenNumber(int num){
-    return num%2==0?1:0;
-}
+// int evenNumber(int num){
+//     return num%2==0?1:0;
+// }
 
+// int main(){
+//     if(evenNumber(3)){
+//         cout<<"the number is even";
+//     }else{
+//         cout<<"the number is odd";
+//     }
+// }
+
+
+int squre(int num){
+    return num*num;
+}
 int main(){
-    if(evenNumber(3)){
-        cout<<"the number is even";
-    }else{
-        cout<<"the number is odd";
-    }
+    cout<<squre(5);
 }
