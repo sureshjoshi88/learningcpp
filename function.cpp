@@ -1,9 +1,21 @@
 #include <iostream>
 using namespace std;
-int number(){
-    cout<<"jai shree ram";
+// int number(){
+//     cout<<"jai shree ram";
+// }
+
+// int main(){
+//     number();
+// }
+
+int evenNumber(int num){
+    return num%2==0?1:0;
 }
 
 int main(){
-    number();
+    if(evenNumber(3)){
+        cout<<"the number is even";
+    }else{
+        cout<<"the number is odd";
+    }
 }
