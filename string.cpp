@@ -90,13 +90,23 @@ using namespace std;
 // }
 
 
-int main(){
-    // string x = "hello how are you";
-    // // cout<<x.length();
-    // cout<<x.size();
+// int main(){
+    
 
-    string name;
-    cout<<"Enter a sentence:- ";
-    getline(cin>>ws,name);
-    cout<<name.length();
+//     string name;
+//     cout<<"Enter a sentence:- ";
+//     getline(cin>>ws,name);
+//     cout<<name.length();
+// }
+
+int main(){
+    const int num = 10;
+    using floatalies = float;
+    
+    floatalies num1 = 5.5;
+    floatalies num2 = 6.9;
+    float total  = num1+num2;
+
+    cout<<num<<endl;
+    cout<<total;
 }
