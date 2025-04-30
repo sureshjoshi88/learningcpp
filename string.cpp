@@ -101,8 +101,8 @@ using namespace std;
 
 int main(){
     const int num = 10;
-    using floatalies = float;
-    
+    typedef float floatalies;
+
     floatalies num1 = 5.5;
     floatalies num2 = 6.9;
     float total  = num1+num2;
