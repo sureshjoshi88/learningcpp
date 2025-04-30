@@ -21,9 +21,9 @@ using namespace std;
 // }
 
 
-int squre(int num){
-    return num*num;
-}
-int main(){
-    cout<<squre(5);
-}
+// int squre(int num){
+//     return num*num;
+// }
+// int main(){
+//     cout<<squre(5);
+// }
