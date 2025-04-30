@@ -290,10 +290,24 @@ using namespace std;
 
 
 
+// int main(){
+//     vector<string> names = {"suresh","ankit","vikash"};
+//     names.push_back("rahul");
+//     for(string name:names){
+//         cout<<name<<endl;   ;
+//     }
+// }
+
+
+
 int main(){
-    vector<string> names = {"suresh","ankit","vikash"};
-    names.push_back("rahul");
-    for(string name:names){
-        cout<<name<<endl;   ;
+    int x = 10;
+    string bike[x];
+    // fill(bike,bike+10,"ktm");
+    fill(bike,(bike+x/2),"bullete");
+    fill((bike+x/2),bike+x,"ktm");
+    for(string i :bike){
+        cout<<i<<endl;
     }
+
 }
