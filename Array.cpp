@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+#include <vector>
 // int main(){
     // int number[5] = {1,2,3,4,5};
     // cout<<number[4];
@@ -286,3 +287,13 @@ using namespace std;
     
 //     cout<<seconlargest;
 // }
+
+
+
+int main(){
+    vector<string> names = {"suresh","ankit","vikash"};
+    names.push_back("rahul");
+    for(string name:names){
+        cout<<name<<endl;   ;
+    }
+}
