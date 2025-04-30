@@ -99,14 +99,3 @@ using namespace std;
 //     cout<<name.length();
 // }
 
-int main(){
-    const int num = 10;
-    typedef float floatalies;
-
-    floatalies num1 = 5.5;
-    floatalies num2 = 6.9;
-    float total  = num1+num2;
-
-    cout<<num<<endl;
-    cout<<total;
-}
