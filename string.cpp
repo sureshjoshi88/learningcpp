@@ -88,3 +88,15 @@ using namespace std;
 //     cout<<name.length();
 
 // }
+
+
+int main(){
+    // string x = "hello how are you";
+    // // cout<<x.length();
+    // cout<<x.size();
+
+    string name;
+    cout<<"Enter a sentence:- ";
+    getline(cin>>ws,name);
+    cout<<name.length();
+}
