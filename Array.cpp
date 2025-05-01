@@ -385,33 +385,80 @@ int main(){
     //     }
     //     cout<<endl;
     // }
+
+
+    // int row =3;
+    // int col = 3;
+    // int arr[row][col] = {{1,2,3},{4,5,6},{7,8,9}};
+    // int trans[row][col];
+
+    // if(row==col){
+    //     for (int  i = 0; i < row; i++)
+    // {
+    //     for (int j = 0; j < col; j++)
+    //     {
+    //         trans[i][j] = arr[j][i];
+    //     }
+        
+    // }
+    // for (int  i = 0; i < row; i++)
+    // {
+    //     for (int j = 0; j < col; j++)
+    //     {
+     
+    //        cout<<trans[i][j]<<" ";
+    //     }
+    //     cout<<endl;
+    // }
+    // }else{
+    //     cout<<"pleasse enter same row and col";
+    // }
+
+
+
+
+
+//       int row =3;
+//     int col = 3;
+//     int arr[row][col] = {{1,2,3},{4,5,6},{7,8,9}};
+//     int trans[row][col];
+//     int sum = 0;
+
+//         for (int  i = 0; i < row; i++)
+//     {
+//         for (int j = 0; j < col; j++)
+//         {
+//             sum+= arr[j][i];
+
+//         }
+    
+
+// }
+// cout<<sum;
+
+
     int row =3;
     int col = 3;
     int arr[row][col] = {{1,2,3},{4,5,6},{7,8,9}};
-    int trans[row][col];
+    int arr2[row][col] = {{1,2,3},{4,5,6},{7,8,9}};
+    int arr3[row][col];
 
-    if(row==col){
-        for (int  i = 0; i < row; i++)
+    for (int i = 0; i < row; i++)
     {
-        for (int j = 0; j < col; j++)
-        {
-            trans[i][j] = arr[j][i];
-        }
-        
-    }
-    for (int  i = 0; i < row; i++)
-    {
-        for (int j = 0; j < col; j++)
-        {
-     
-           cout<<trans[i][j]<<" ";
-        }
-        cout<<endl;
-    }
-    }else{
-        cout<<"pleasse enter same row and col";
+       for (int j = 0; j < col; j++)
+       {
+       arr3[i][j] = arr[i][j]+arr2[i][j];
+       }
+       
     }
     
+    for (int i = 0; i < row; i++)
+    {
+       for (int j = 0; j < col; j++)
+       {
+        cout<<arr3[i][j]<<" ";
+       }
+       cout<<endl;
+    }
     
-
 }
