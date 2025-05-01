@@ -361,29 +361,55 @@ using namespace std;
 // }
 
 int main(){
-    int row;
-    int col;
-    cout<<"entre a row:-";
-    cin>>row;
-    cout<<"entre a col:-";
-    cin>>col;
-    int arr[row][col];
-    for (int i = 0; i < row; i++) {
-     for (int j = 0; j < col; j++)
-     {
-         cout<<"enter a value :-";
-       cin>>arr[i][j];
-     }
+    // int row;
+    // int col;
+    // cout<<"entre a row:-";
+    // cin>>row;
+    // cout<<"entre a col:-";
+    // cin>>col;
+    // int arr[row][col];
+    // for (int i = 0; i < row; i++) {
+    //  for (int j = 0; j < col; j++)
+    //  {
+    //      cout<<"enter a value :-";
+    //    cin>>arr[i][j];
+    //  }
      
+    // }
+    // for (int  i = 0; i < row; i++)
+    // {
+    //     for (int j = 0; j < col; j++)
+    //     {
+     
+    //        cout<<arr[i][j]<<" ";
+    //     }
+    //     cout<<endl;
+    // }
+    int row =3;
+    int col = 3;
+    int arr[row][col] = {{1,2,3},{4,5,6},{7,8,9}};
+    int trans[row][col];
+
+    if(row==col){
+        for (int  i = 0; i < row; i++)
+    {
+        for (int j = 0; j < col; j++)
+        {
+            trans[i][j] = arr[j][i];
+        }
+        
     }
     for (int  i = 0; i < row; i++)
     {
         for (int j = 0; j < col; j++)
         {
      
-           cout<<arr[i][j]<<" ";
+           cout<<trans[i][j]<<" ";
         }
         cout<<endl;
+    }
+    }else{
+        cout<<"pleasse enter same row and col";
     }
     
     
