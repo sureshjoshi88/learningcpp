@@ -300,14 +300,23 @@ using namespace std;
 
 
 
-int main(){
-    int x = 10;
-    string bike[x];
-    // fill(bike,bike+10,"ktm");
-    fill(bike,(bike+x/2),"bullete");
-    fill((bike+x/2),bike+x,"ktm");
-    for(string i :bike){
-        cout<<i<<endl;
-    }
+// int main(){
+//     int x = 10;
+//     string bike[x];
+//     // fill(bike,bike+10,"ktm");
+//     fill(bike,(bike+x/2),"bullete");
+//     fill((bike+x/2),bike+x,"ktm");
+//     for(string i :bike){
+//         cout<<i<<endl;
+//     }
 
+// }
+
+
+int main(){
+   
+    int x = 5;
+   string name[x];
+    fill(name,name+x,"suresh");
+    cout<<name;
 }
