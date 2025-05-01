@@ -313,10 +313,79 @@ using namespace std;
 // }
 
 
-int main(){
+// int main(){
    
-    int x = 5;
-   string name[x];
-    fill(name,name+x,"suresh");
-    cout<<name;
+//     int x = 5;
+//    string name[x];
+//     fill(name,name+x,"suresh");
+//     cout<<name;
+// }
+
+
+
+
+// int main(){
+//     // fill()
+// // string cars[] ={"bmw","bmw","bmw","bmw","bmw"};
+// //fill(starting point, end, value)
+// int x =9;
+// string bike[x];
+// fill(bike,bike+x,"challenger");
+// // fill(bike,(bike+x/2),"scorpio");
+// // fill((bike+x/2),bike+x,"fortuner");
+// for(string element : bike){
+//     cout<<element<<endl;
+// }
+//     // multidimensional array
+
+
+// }
+
+
+// int main(){
+//     //multindimensional array
+//     // int arr[]={1,2,3};
+
+//     string arr[][2]={   {"swift","desire"},
+//                         {"scorpio","dodge"},
+//                         {"alto","creta"} };
+//     // cout<<arr[0][0]<<" ";
+//     // cout<<arr[0][1]<<"\n";
+//     // cout<<arr[1][0]<<" ";
+//     // cout<<arr[1][1]<<"\n";
+//     // cout<<arr[2][0]<<" ";
+//     // cout<<arr[2][1]<<"\n";
+
+//     int row =sizeof(arr)/sizeof(arr[0]);
+//     int col =sizeof(arr[0])/sizeof(arr[0][0]);
+// }
+
+int main(){
+    int row;
+    int col;
+    cout<<"entre a row:-";
+    cin>>row;
+    cout<<"entre a col:-";
+    cin>>col;
+    int arr[row][col];
+    for (int i = 0; i < row; i++) {
+     for (int j = 0; j < col; j++)
+     {
+         cout<<"enter a value :-";
+       cin>>arr[i][j];
+     }
+     
+    }
+    for (int  i = 0; i < row; i++)
+    {
+        for (int j = 0; j < col; j++)
+        {
+     
+           cout<<arr[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+    
+    
+
 }
