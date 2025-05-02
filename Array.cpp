@@ -492,28 +492,136 @@ int main(){
     
 
     
-    int row =3;
-    int col = 3;
-    int arr[row][col] = {{2,3,4},{5,6,7},{8,9,10}};
-    int arr2[row][col] = {{1,2,3},{4,5,6},{7,8,9}};
-    int arr3[row][col];
+    // int row =3;
+    // int col = 3;
+    // int arr[row][col] = {{2,3,4},{5,6,7},{8,9,10}};
+    // int arr2[row][col] = {{1,2,3},{4,5,6},{7,8,9}};
+    // int arr3[row][col];
 
-    for (int i = 0; i < row; i++)
+    // for (int i = 0; i < row; i++)
+    // {
+    //    for (int j = 0; j < col; j++)
+    //    {
+    //    arr3[i][j] = arr[i][j]*arr2[i][j];
+    //    }
+       
+    // }
+    
+    // for (int i = 0; i < row; i++)
+    // {
+    //    for (int j = 0; j < col; j++)
+    //    {
+    //     cout<<arr3[i][j]<<" ";
+    //    }
+    //    cout<<endl;
+    // }
+
+
+  // int r1 = 3;
+  // int c1 = 2;
+  // int r2 = 2;
+  // int c2 = 3;
+
+
+  
+// int a=3;
+// int *ptr;
+// ptr = &a;
+// *ptr = 5;
+// cout<<ptr<<endl;
+// cout<<*ptr;
+
+// int **temp;
+// temp = &ptr;
+// cout<<temp<<endl;
+// int ***bb;
+// bb = &temp;
+// cout<<bb;
+
+int r1,c1,r2,c2;
+cout<<"enter valaue";
+cin>>r1,c1,r2,c2;
+int a[r1][c1];
+int b[r2][c2];
+for(int i =0;i<r1;i++){
+    for (int j = 0; j < c1; j++)
     {
-       for (int j = 0; j < col; j++)
+        cin>>a[i][j];
+    }
+    
+}
+for(int i =0;i<r2;i++){
+    for (int j = 0; j < c2; j++)
+    {
+        cin>>b[i][j];
+    }
+    
+}
+int ans[r1][c2];
+if(r1==c2){
+    for (int i = 0; i < r1; i++)
+    {
+       for (int j = 0; j < c2; j++)
        {
-       arr3[i][j] = arr[i][j]*arr2[i][j];
+       ans[i][j]=0;
+       for (int k = 0; k < c2; k++)
+       {
+       ans[i][j] =ans[i][j]+ (a[i][k]+b[k][j]);
+       }
+       
        }
        
     }
-    
-    for (int i = 0; i < row; i++)
+    for (int i = 0; i < r1; i++)
     {
-       for (int j = 0; j < col; j++)
-       {
-        cout<<arr3[i][j]<<" ";
-       }
-       cout<<endl;
+        for (int j = 0; j < c2; j++)
+        {
+            cout<<ans[i][j]<<" ";
+        }
+        cout<<endl;
+        
     }
+    
+}
 
+// Online C++ compiler to run C++ program online
+
+    // Write C++ code here
+//     int r1,c1,r2,c2;
+//     cout<<"enter"<<endl;
+//     cin>>r1>>c1>>r2>>c2;
+//     int A[r1][c1];
+//     int B[r2][c2];
+//     for(int i=0;i<r1;i++){
+//         for(int j=0;j<c1;j++){
+//             cin>>A[i][j];
+            
+//         }
+//     }
+    
+//     for(int i=0;i<r2;i++){
+//         for(int j=0;j<c2;j++){
+//             cin>>B[i][j];
+            
+//         }
+//     }
+//     int ans[r1][c2];
+//     if(r2==c1){
+        
+//         for(int i=0;i<r1;i++){
+//         for(int j=0;j<c2;j++){
+//             ans[i][j]=0;
+//         for(int k=0;k<c1;k++){
+//             ans[i][j]=ans[i][j]+ (A[i][k]+B[k][j]);
+//         }
+//         }
+//         }
+//          for(int i=0;i<r1;i++){
+//         for(int j=0;j<c2;j++){
+//         cout<<ans[i][j]<<"  ";
+//     }
+//     cout<<endl;
+//          }
+
+// }
 }
