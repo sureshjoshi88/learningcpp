@@ -540,7 +540,7 @@ int main(){
 
 int r1,c1,r2,c2;
 cout<<"enter valaue";
-cin>>r1,c1,r2,c2;
+cin>>r1>>c1>>r2>>c2;
 int a[r1][c1];
 int b[r2][c2];
 for(int i =0;i<r1;i++){
@@ -582,6 +582,8 @@ if(r1==c2){
         
     }
     
+}else{
+    cout<<"please r1 and c2 same value enter";
 }
 
 // Online C++ compiler to run C++ program online
