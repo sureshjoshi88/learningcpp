@@ -548,14 +548,12 @@ for(int i =0;i<r1;i++){
     {
         cin>>a[i][j];
     }
-    
 }
 for(int i =0;i<r2;i++){
     for (int j = 0; j < c2; j++)
     {
         cin>>b[i][j];
     }
-    
 }
 int ans[r1][c2];
 if(r1==c2){
@@ -568,9 +566,7 @@ if(r1==c2){
        {
        ans[i][j] =ans[i][j]+ (a[i][k]+b[k][j]);
        }
-       
        }
-       
     }
     for (int i = 0; i < r1; i++)
     {
@@ -579,9 +575,7 @@ if(r1==c2){
             cout<<ans[i][j]<<" ";
         }
         cout<<endl;
-        
     }
-    
 }else{
     cout<<"please r1 and c2 same value enter";
 }
