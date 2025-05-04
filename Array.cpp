@@ -562,7 +562,7 @@ if(r1==c2){
        for (int j = 0; j < c2; j++)
        {
        ans[i][j]=0;
-       for (int k = 0; k < c2; k++)
+       for (int k = 0; k < c1; k++)
        {
        ans[i][j] =ans[i][j]+ (a[i][k]+b[k][j]);
        }
