@@ -546,12 +546,14 @@ int b[r2][c2];
 for(int i =0;i<r1;i++){
     for (int j = 0; j < c1; j++)
     {
+        cout<<"please enter value";
         cin>>a[i][j];
     }
 }
 for(int i =0;i<r2;i++){
     for (int j = 0; j < c2; j++)
     {
+        cout<<"please enter value";
         cin>>b[i][j];
     }
 }
