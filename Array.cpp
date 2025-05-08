@@ -538,49 +538,49 @@ int main(){
 // bb = &temp;
 // cout<<bb;
 
-int r1,c1,r2,c2;
-cout<<"enter valaue";
-cin>>r1>>c1>>r2>>c2;
-int a[r1][c1];
-int b[r2][c2];
-for(int i =0;i<r1;i++){
-    for (int j = 0; j < c1; j++)
-    {
-        cout<<"please enter value";
-        cin>>a[i][j];
-    }
-}
-for(int i =0;i<r2;i++){
-    for (int j = 0; j < c2; j++)
-    {
-        cout<<"please enter value";
-        cin>>b[i][j];
-    }
-}
-int ans[r1][c2];
-if(r1==c2){
-    for (int i = 0; i < r1; i++)
-    {
-       for (int j = 0; j < c2; j++)
-       {
-       ans[i][j]=0;
-       for (int k = 0; k < c1; k++)
-       {
-       ans[i][j] =ans[i][j]+ (a[i][k]+b[k][j]);
-       }
-       }
-    }
-    for (int i = 0; i < r1; i++)
-    {
-        for (int j = 0; j < c2; j++)
-        {
-            cout<<ans[i][j]<<" ";
-        }
-        cout<<endl;
-    }
-}else{
-    cout<<"please r1 and c2 same value enter";
-}
+// int r1,c1,r2,c2;
+// cout<<"enter valaue"<<endl;
+// cin>>r1>>c1>>r2>>c2;
+// int a[r1][c1];
+// int b[r2][c2];
+// for(int i =0;i<r1;i++){
+//     for (int j = 0; j < c1; j++)
+//     {
+//         cout<<"please enter value";
+//         cin>>a[i][j];
+//     }
+// }
+// for(int i =0;i<r2;i++){
+//     for (int j = 0; j < c2; j++)
+//     {
+//         cout<<"please enter value";
+//         cin>>b[i][j];
+//     }
+// }
+// int ans[r1][c2];
+// if(r1==c2){
+//     for (int i = 0; i < r1; i++)
+//     {
+//        for (int j = 0; j < c2; j++)
+//        {
+//        ans[i][j]=0;
+//        for (int k = 0; k < c1; k++)
+//        {
+//        ans[i][j] =ans[i][j]+ (a[i][k]*b[k][j]);
+//        }
+//        }
+//     }
+//     for (int i = 0; i < r1; i++)
+//     {
+//         for (int j = 0; j < c2; j++)
+//         {
+//             cout<<ans[i][j]<<" ";
+//         }
+//         cout<<endl;
+//     }
+// }else{
+//     cout<<"please r1 and c2 same value enter";
+// }
 
 // Online C++ compiler to run C++ program online
 
@@ -622,4 +622,45 @@ if(r1==c2){
 //          }
 
 // }
+
+
+// int a[] = {1,2,3};
+// cout<<a;
+
+
+// int *a = nullptr;
+// cout<<a;
+
+
+
+// types of pointer
+
+// double pointer,
+// null pointer,
+// void pointer,
+// wild pointer,
+// dangly pointer,
+
+
+
+int  arr[] = {2,3,4,5,6,7};
+int lenght = sizeof(arr)/sizeof(arr[0]);
+int i =0;
+int j = lenght-1;
+while (i<=j)
+{
+   int temp = arr[i];
+   arr[i] = arr[j];
+   arr[j] = temp;
+   i++;
+   j--;
+}
+for (int i = 0; i < lenght; i++)
+{
+cout<<arr[i]<<" ";
+}
+
+
+
+
 }
