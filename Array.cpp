@@ -342,6 +342,7 @@ using namespace std;
 // }
 
 
+
 // int main(){
 //     //multindimensional array
 //     // int arr[]={1,2,3};
@@ -405,7 +406,6 @@ int main(){
     // {
     //     for (int j = 0; j < col; j++)
     //     {
-     
     //        cout<<trans[i][j]<<" ";
     //     }
     //     cout<<endl;
@@ -660,6 +660,13 @@ int main(){
 // }
 
 
+// int x = 5;
+// string car[x];
+// fill(car,car+x,"scorepio");
+// for (string vichle:car){
+//     cout<<vichle<<endl;
+// }
 
 
-}
+// }
+
