@@ -709,31 +709,51 @@ int main(){
 
 
 
-int row;
-int col;
-cout<<"enter a row value:-";
-cin>>row;
-cout<<"enter a col value:-";
-cin>>col;
-int arr1[row][col]; 
-int sum=0;
- for (int  i = 0; i < row; i++)  {
-    cout<<"enter value:-";
-    for (int j = 0; j < col; j++) {
-        cin>>arr1[i][j];
-    }
-    }
+// int row;
+// int col;
+// cout<<"enter a row value:-";
+// cin>>row;
+// cout<<"enter a col value:-";
+// cin>>col;
+// int arr1[row][col]; 
+// int sum=0;
+//  for (int  i = 0; i < row; i++)  {
+//     cout<<"enter value:-";
+//     for (int j = 0; j < col; j++) {
+//         cin>>arr1[i][j];
+//     }
+//     }
 
 
-    for (int  i = 0; i < row; i++)  {
-    for (int j = 0; j < col; j++) {
-        sum += arr1[j][i];
-    }
-    }
+//     for (int  i = 0; i < row; i++)  {
+//     for (int j = 0; j < col; j++) {
+//         sum += arr1[j][i];
+//     }
+//     }
 
-     cout<<sum;
+//      cout<<sum;
     
 
+int row =2;
+int col = 3;
+int arr1[row][col] = {{1,2},{3,4}};
+int arr2[row][col] = {{1,2},{3,4}};
+int sum[row][col];
+
+
+ for (int  i = 0; i < row; i++)  {
+    for (int j = 0; j < col; j++) {
+        sum[i][j] = arr1[i][j]*arr2[i][j];
+    }
+    }
+
+
+     for (int  i = 0; i < row; i++)  {
+    for (int j = 0; j < col; j++) {
+        cout<<sum[i][j]<<" ";
+    }
+    cout<<endl;
+    }
 
 
 }
