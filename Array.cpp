@@ -517,10 +517,6 @@ int main(){
     // }
 
 
-  // int r1 = 3;
-  // int c1 = 2;
-  // int r2 = 2;
-  // int c2 = 3;
 
 
   
@@ -668,5 +664,50 @@ int main(){
 // }
 
 
+
+
+
+
+
+////
+
+
+
+// int row;
+// int col;
+// cout<<"enter a row value";
+// cin>>row;
+// cout<<"enter a col value";
+// cin>>col;
+// int arr1[row][col]; 
+// int trans[row][col];
+//  for (int  i = 0; i < row; i++)  {
+//     cout<<"enter value";
+//     for (int j = 0; j < col; j++) {
+//         cin>>arr1[i][j];
+//     }
+//     }
+
+// if(row==col){
+//     for (int  i = 0; i < row; i++)  {
+//     for (int j = 0; j < col; j++) {
+//         trans[i][j] = arr1[j][i];
+//     }
+//     }
+
+//      for (int  i = 0; i < row; i++)  {
+//     for (int j = 0; j < col; j++) {
+//         cout<<trans[i][j]<<" ";
+//     }
+//     cout<<endl;
+//     }
+    
+
+// }else{
+//     cout<<"please enter a same row and col value";
 // }
 
+
+
+
+}
