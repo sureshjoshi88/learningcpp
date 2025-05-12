@@ -734,26 +734,28 @@ int main(){
 //      cout<<sum;
     
 
-int row =2;
-int col = 3;
-int arr1[row][col] = {{1,2},{3,4}};
-int arr2[row][col] = {{1,2},{3,4}};
-int sum[row][col];
+// int row =2;
+// int col = 3;
+// int arr1[row][col] = {{1,2},{3,4}};
+// int arr2[row][col] = {{1,2},{3,4}};
+// int sum[row][col];
 
 
- for (int  i = 0; i < row; i++)  {
-    for (int j = 0; j < col; j++) {
-        sum[i][j] = arr1[i][j]*arr2[i][j];
-    }
-    }
+//  for (int  i = 0; i < row; i++)  {
+//     for (int j = 0; j < col; j++) {
+//         sum[i][j] = arr1[i][j]*arr2[i][j];
+//     }
+//     }
 
 
-     for (int  i = 0; i < row; i++)  {
-    for (int j = 0; j < col; j++) {
-        cout<<sum[i][j]<<" ";
-    }
-    cout<<endl;
-    }
+//      for (int  i = 0; i < row; i++)  {
+//     for (int j = 0; j < col; j++) {
+//         cout<<sum[i][j]<<" ";
+//     }
+//     cout<<endl;
+//     }
+
+
 
 
 }
