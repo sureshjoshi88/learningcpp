@@ -709,5 +709,31 @@ int main(){
 
 
 
+int row;
+int col;
+cout<<"enter a row value:-";
+cin>>row;
+cout<<"enter a col value:-";
+cin>>col;
+int arr1[row][col]; 
+int sum=0;
+ for (int  i = 0; i < row; i++)  {
+    cout<<"enter value:-";
+    for (int j = 0; j < col; j++) {
+        cin>>arr1[i][j];
+    }
+    }
+
+
+    for (int  i = 0; i < row; i++)  {
+    for (int j = 0; j < col; j++) {
+        sum += arr1[j][i];
+    }
+    }
+
+     cout<<sum;
+    
+
+
 
 }
