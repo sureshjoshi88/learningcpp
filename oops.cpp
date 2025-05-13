@@ -75,21 +75,74 @@ using namespace std;
 //     c1.result();
 // }
 
-class book{
-    public:
-    string author;
-    string title;
-    int price;
+// class book{
+//     public:
+//     string author;
+//     string title;
+//     int price;
    
-    void returns(){
-        cout<<author<<"\n"<<title<<"\n"<<price;
+//     void returns(){
+//         cout<<author<<"\n"<<title<<"\n"<<price;
+//     }
+// };
+
+// int main(){
+
+//     book b;
+//     b.author = "suresh";
+//     b.title = "software";
+//     b.price = 20000;
+
+
+//     b.returns();
+// }
+
+
+// class Reactangle{
+//     public:
+  
+//     void result(int length,int width){
+//         cout<<length*width<<endl;
+//     }
+//     void result2(int length,int width){
+//         cout<<2*(length+width);
+//     }
+// };
+// int main(){
+//     Reactangle value;
+//     value.result(3,4);
+//     value.result2(5,6);
+// }
+
+
+class BankAccount{
+public:
+int accountNo = 16178824365208;
+string accountHolder = "suresh";
+int balnce = 1000;
+
+void deposite(int money){
+    balnce+=money;
+}
+void withdrow(int money){
+    if(balnce>=money){
+    balnce-=money;
+
+    }else{
+        cout<<"itne pese nhi h account me \n";
     }
+}
+void totalBalnce(){
+    cout<<"Total balnce is = "<<balnce;
+}
+
+
 };
 
+
 int main(){
-    book b;
-    b.author = "suresh";
-    b.title = "software";
-    b.price = 20000;
-    b.returns();
+    BankAccount acc;
+    acc.deposite(500);
+    acc.withdrow(200);
+    acc.totalBalnce();
 }
