@@ -148,34 +148,57 @@ using namespace std;
 // }
 
 
-class Calcutator{
+// class Calcutator{
+//     public:
+//     int total;
+//     void add(int a,int b){
+//         total = a+b;
+//         cout<<total<<endl;
+//     }
+//     void subract(int a,int b){
+//         total = a-b;
+//         cout<<total<<endl;
+
+//     }
+//     void multiply(int a,int b){
+//         total = a*b;
+//         cout<<total<<endl;
+
+//     }
+//     void divide(int a,int b){
+//         total = a/b;
+//         cout<<total;
+//     }
+// };
+// int main(){
+//     Calcutator value;
+//     value.add(5,6);
+//     value.subract(10,3);
+//     value.multiply(5,6);
+//     value.divide(30,5);
+// }
+
+class Movies{
     public:
-    int total;
-    void add(int a,int b){
-        total = a+b;
-        cout<<total;
+    string title;
+    int year;
+    Movies(string s,int y){
+        title = s;
+        year = y;
     }
-    void subract(int a,int b){
-        total = a-b;
-        cout<<total;
-
-    }
-    void multiply(int a,int b){
-        total = a*b;
-        cout<<total;
-
-    }
-    void divide(int a,int b){
-        total = a/b;
-        cout<<total;
-
+    void display(){
+        cout<<title<<", "<< year<<endl;
     }
 
 };
+
 int main(){
-    Calcutator value;
-    value.add(5,6);
-    value.subract(10,3);
-    value.multiply(5,6);
-    value.divide(30,5);
+    Movies move[3] = {Movies("heropanti",2023),
+    Movies("kgf",2024),
+    Movies("puspa3",2025)};
+        for (int i = 0; i < 3; i++)
+        {
+            move[i].display();
+        }
+        return 0;
 }
