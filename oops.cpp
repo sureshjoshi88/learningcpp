@@ -115,34 +115,67 @@ using namespace std;
 // }
 
 
-class BankAccount{
-public:
-int accountNo = 16178824365208;
-string accountHolder = "suresh";
-int balnce = 1000;
+// class BankAccount{
+// public:
+// int accountNo = 16178824365208;
+// string accountHolder = "suresh";
+// int balnce = 1000;
 
-void deposite(int money){
-    balnce+=money;
-}
-void withdrow(int money){
-    if(balnce>=money){
-    balnce-=money;
+// void deposite(int money){
+//     balnce+=money;
+// }
+// void withdrow(int money){
+//     if(balnce>=money){
+//     balnce-=money;
 
-    }else{
-        cout<<"itne pese nhi h account me \n";
+//     }else{
+//         cout<<"itne pese nhi h account me \n";
+//     }
+// }
+// void totalBalnce(){
+//     cout<<"Total balnce is = "<<balnce;
+// }
+
+
+// };
+
+
+// int main(){
+//     BankAccount acc;
+//     acc.deposite(500);
+//     acc.withdrow(200);
+//     acc.totalBalnce();
+// }
+
+
+class Calcutator{
+    public:
+    int total;
+    void add(int a,int b){
+        total = a+b;
+        cout<<total;
     }
-}
-void totalBalnce(){
-    cout<<"Total balnce is = "<<balnce;
-}
+    void subract(int a,int b){
+        total = a-b;
+        cout<<total;
 
+    }
+    void multiply(int a,int b){
+        total = a*b;
+        cout<<total;
+
+    }
+    void divide(int a,int b){
+        total = a/b;
+        cout<<total;
+
+    }
 
 };
-
-
 int main(){
-    BankAccount acc;
-    acc.deposite(500);
-    acc.withdrow(200);
-    acc.totalBalnce();
+    Calcutator value;
+    value.add(5,6);
+    value.subract(10,3);
+    value.multiply(5,6);
+    value.divide(30,5);
 }
