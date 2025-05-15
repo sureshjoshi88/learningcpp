@@ -178,27 +178,82 @@ using namespace std;
 //     value.divide(30,5);
 // }
 
-class Movies{
+
+
+
+
+// class Movies{
+//     public:
+//     string title;
+//     int year;
+//     Movies(string s,int y){
+//         title = s;
+//         year = y;
+//     }
+//     void display(){
+//         cout<<title<<", "<< year<<endl;
+//     }
+
+// };
+
+// int main(){
+//     Movies move[3] = {Movies("heropanti",2023),
+//     Movies("kgf",2024),
+//     Movies("puspa3",2025)};
+//         for (int i = 0; i < 3; i++)
+//         {
+//             move[i].display();
+//         }
+//         return 0;
+// }
+
+
+
+// class Teacher{
+//     public:
+//     int id;
+//     string name;
+//     Teacher(){
+//         cout<<"constructor run"<<endl;
+//     }
+//     ~Teacher(){
+//         cout<<"destructor is called";
+//     }
+
+
+// };
+
+// int main(){
+//     Teacher t;
+// }
+
+
+
+class time{
     public:
-    string title;
-    int year;
-    Movies(string s,int y){
-        title = s;
-        year = y;
-    }
-    void display(){
-        cout<<title<<", "<< year<<endl;
-    }
+    int hr;
+    int min;
 
+    time add(time t){
+        time result;
+        result.min = min+t.min;
+        result.hr = hr+t.hr+(result.min/60);
+        result.min  = result.min%60;
+        return result;
+        
+    }
+    void disp(){
+        cout<<"total time is "<<hr<<":"<<min;
+    }
 };
-
 int main(){
-    Movies move[3] = {Movies("heropanti",2023),
-    Movies("kgf",2024),
-    Movies("puspa3",2025)};
-        for (int i = 0; i < 3; i++)
-        {
-            move[i].display();
-        }
-        return 0;
+    time t1;
+    t1.hr = 2;
+    t1.min = 30;
+    time t2;
+    t2.hr = 5;
+    t2.min = 50;
+    time t = t1.add(t2);
+    t.disp();
+    
 }
