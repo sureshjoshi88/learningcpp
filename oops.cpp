@@ -229,31 +229,95 @@ using namespace std;
 
 
 
-class time{
-    public:
-    int hr;
-    int min;
+// class time{
+//     public:
+//     int hr;
+//     int min;
 
-    time add(time t){
-        time result;
-        result.min = min+t.min;
-        result.hr = hr+t.hr+(result.min/60);
-        result.min  = result.min%60;
-        return result;
+//     time add(time t){
+//         time result;
+//         result.min = min+t.min;
+//         result.hr = hr+t.hr+(result.min/60);
+//         result.min  = result.min%60;
+//         return result;
         
-    }
-    void disp(){
-        cout<<"total time is "<<hr<<":"<<min;
-    }
-};
-int main(){
-    time t1;
-    t1.hr = 2;
-    t1.min = 30;
-    time t2;
-    t2.hr = 5;
-    t2.min = 50;
-    time t = t1.add(t2);
-    t.disp();
+//     }
+//     void disp(){
+//         cout<<"total time is "<<hr<<":"<<min;
+//     }
+// };
+// int main(){
+//     time t1;
+//     t1.hr = 2;
+//     t1.min = 30;
+//     time t2;
+//     t2.hr = 5;
+//     t2.min = 50;
+//     time t = t1.add(t2);
+//     t.disp();
     
+// }
+
+
+
+// class Teacher {
+//     protected:
+//     int a,b;
+//     public:
+//     int x,y;
+
+//    Teacher(){
+//     x = 2;
+//     y = 3;
+//    }
+// };
+
+
+
+// class student:public Teacher{
+//     public:
+//  void result(){
+//         cout<<x;
+//     }
+// };
+// int main(){
+// Teacher t;
+// student s;
+// s.result();
+// }
+
+
+
+
+
+class teacher{
+    public:
+    int a;
+    teacher(){
+        a = 2;
+    }
+
+};
+
+class pricipal{
+    public:
+    int b;
+    pricipal(){
+        b =7;
+    }
+
+};
+
+
+class student:public teacher,public pricipal{
+public:
+void disp(){
+    cout<<a<<b;
+}
+};
+
+int main(){
+    teacher t;
+    student s;
+    s.disp();
 }
