@@ -300,7 +300,7 @@ class teacher{
 };
 
 class pricipal{
-    public:
+    protected:
     int b;
     pricipal(){
         b =7;
@@ -309,7 +309,7 @@ class pricipal{
 };
 
 
-class student:public teacher,public pricipal{
+class student:public teacher,private pricipal{
 public:
 void disp(){
     cout<<a<<b;
