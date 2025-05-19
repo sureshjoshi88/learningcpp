@@ -378,3 +378,27 @@ class parent{
         cout<<name;
     }
 };
+
+
+class subParent :public parent{
+    public:
+    
+    void mains(){
+        show();
+    }
+};
+
+
+class child :public subParent{
+    public:
+    void final(){
+        mains();
+    }
+
+};
+
+
+int main(){
+    child c1;
+    c1.final();
+}
