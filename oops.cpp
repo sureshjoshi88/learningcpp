@@ -80,7 +80,7 @@ using namespace std;
 //     string author;
 //     string title;
 //     int price;
-   
+
 //     void returns(){
 //         cout<<author<<"\n"<<title<<"\n"<<price;
 //     }
@@ -93,14 +93,12 @@ using namespace std;
 //     b.title = "software";
 //     b.price = 20000;
 
-
 //     b.returns();
 // }
 
-
 // class Reactangle{
 //     public:
-  
+
 //     void result(int length,int width){
 //         cout<<length*width<<endl;
 //     }
@@ -113,7 +111,6 @@ using namespace std;
 //     value.result(3,4);
 //     value.result2(5,6);
 // }
-
 
 // class BankAccount{
 // public:
@@ -136,9 +133,7 @@ using namespace std;
 //     cout<<"Total balnce is = "<<balnce;
 // }
 
-
 // };
-
 
 // int main(){
 //     BankAccount acc;
@@ -146,7 +141,6 @@ using namespace std;
 //     acc.withdrow(200);
 //     acc.totalBalnce();
 // }
-
 
 // class Calcutator{
 //     public:
@@ -178,10 +172,6 @@ using namespace std;
 //     value.divide(30,5);
 // }
 
-
-
-
-
 // class Movies{
 //     public:
 //     string title;
@@ -207,8 +197,6 @@ using namespace std;
 //         return 0;
 // }
 
-
-
 // class Teacher{
 //     public:
 //     int id;
@@ -220,14 +208,11 @@ using namespace std;
 //         cout<<"destructor is called";
 //     }
 
-
 // };
 
 // int main(){
 //     Teacher t;
 // }
-
-
 
 // class time{
 //     public:
@@ -240,7 +225,7 @@ using namespace std;
 //         result.hr = hr+t.hr+(result.min/60);
 //         result.min  = result.min%60;
 //         return result;
-        
+
 //     }
 //     void disp(){
 //         cout<<"total time is "<<hr<<":"<<min;
@@ -255,10 +240,8 @@ using namespace std;
 //     t2.min = 50;
 //     time t = t1.add(t2);
 //     t.disp();
-    
+
 // }
-
-
 
 // class Teacher {
 //     protected:
@@ -272,8 +255,6 @@ using namespace std;
 //    }
 // };
 
-
-
 // class student:public Teacher{
 //     public:
 //  void result(){
@@ -286,38 +267,104 @@ using namespace std;
 // s.result();
 // }
 
+// class teacher
+// {
+// public:
+//     int a;
+//     teacher()
+//     {
+//         a = 2;
+//     }
+// };
+
+// class pricipal
+// {
+// protected:
+//     int b;
+//     pricipal()
+//     {
+//         b = 7;
+//     }
+// };
+
+// class student : public teacher, private pricipal
+// {
+// public:
+//     void disp()
+//     {
+//         cout << a << b;
+//     }
+// };
+
+// int main()
+// {
+//     teacher t;
+//     student s;
+//     s.disp();
+// }
+
+
+// class dada{
+// public:
+// string name = "ram";
+// void result(){
+//     cout<<"dada";
+// }
+// };
+
+// class papa :public dada{
+//     public:
+//     void result2(){
+//         cout<<name;
+//     }
+
+// };
+
+// class beta : public papa{
+// public:
+// void result3(){
+//     cout<<"beta";
+// }
+// };
 
 
 
+// int main(){
+//     beta b;
+//     papa p;
+//     b.result2();
+// }
 
-class teacher{
+
+class parent{
     public:
     int a;
-    teacher(){
-        a = 2;
+    void result(){
+        a = 6;
+        cout<<a<<endl;
+        
     }
-
 };
 
-class pricipal{
-    protected:
-    int b;
-    pricipal(){
-        b =7;
+class child : public parent{
+    public:
+    void result2(){
+        result();
+        cout<<"child1"<<endl;
     }
-
 };
 
+class child2 : public parent{
+    public:
+    void result3(){
+        result();
+        cout<<"child2"<<endl;
 
-class student:public teacher,private pricipal{
-public:
-void disp(){
-    cout<<a<<b;
-}
+    }
 };
-
 int main(){
-    teacher t;
-    student s;
-    s.disp();
-}
+child c;
+child2 d;
+c.result2();
+d.result3();
+};
