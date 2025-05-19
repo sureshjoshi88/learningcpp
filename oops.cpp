@@ -336,35 +336,45 @@ using namespace std;
 // }
 
 
+// class parent{
+//     public:
+//     int a;
+//     void result(){
+//         a = 6;
+//         cout<<a<<endl;
+        
+//     }
+// };
+
+// class child : public parent{
+//     public:
+//     void result2(){
+//         result();
+//         cout<<"child1"<<endl;
+//     }
+// };
+
+// class child2 : public parent{
+//     public:
+//     void result3(){
+//         result();
+//         cout<<"child2"<<endl;
+
+//     }
+// };
+// int main(){
+// child c;
+// child2 d;
+// c.result2();
+// d.result3();
+// };
+
+
+
 class parent{
     public:
-    int a;
-    void result(){
-        a = 6;
-        cout<<a<<endl;
-        
+    string name = "ram";
+    void show(){
+        cout<<name;
     }
-};
-
-class child : public parent{
-    public:
-    void result2(){
-        result();
-        cout<<"child1"<<endl;
-    }
-};
-
-class child2 : public parent{
-    public:
-    void result3(){
-        result();
-        cout<<"child2"<<endl;
-
-    }
-};
-int main(){
-child c;
-child2 d;
-c.result2();
-d.result3();
 };
