@@ -371,53 +371,60 @@ using namespace std;
 
 
 
-// class parent{
-//     public:
-//     string name = "ram";
-//     void show(){
-//         cout<<name;
-//     }
-// };
-
-
-// class subParent :public parent{
-//     public:
-    
-//     void mains(){
-//         show();
-//     }
-// };
-
-
-// class child :public subParent{
-//     public:
-//     void final(){
-//         mains();
-//     }
-
-// };
-
-
-// int main(){
-//     child c1;
-//     c1.final();
-// }
-
-
-class person{
+class parent{
     public:
-    string name;
-
-    person(string name){
-        this->name = name;
-    }
-
+    string name = "ram";
     void show(){
         cout<<name;
     }
 };
 
+
+class subParent :public parent{
+    public:
+    
+    void mains(){
+        show();
+    }
+};
+class subParent2 :public parent{
+    public:
+    
+    void mains(){
+        show();
+    }
+};
+
+
+class child :public subParent{
+    public:
+    void final(){
+        mains();
+    }
+
+};
+
+
 int main(){
-    person p("jai shree ram");
-    p.show();
+    child c1;
+    c1.final();
 }
+
+
+// class person{
+//     public:
+//     string name;
+
+//     person(string name){
+//         this->name = name;
+//     }
+
+//     void show(){
+//         cout<<name;
+//     }
+// };
+
+// int main(){
+//     person p("jai shree ram");
+//     p.show();
+// }
