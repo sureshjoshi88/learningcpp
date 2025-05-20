@@ -371,44 +371,48 @@ using namespace std;
 
 
 
-class parent{
-    public:
-    string name = "ram";
-    void show(){
-        cout<<name;
-    }
-};
+// class parent{
+//     public:
+//     string name = "ram";
+//     void show(int n){
+//         cout<<name<<n<<endl;
+
+//     }
+// };
 
 
-class subParent :public parent{
-    public:
+// class subParent :public parent{
+//     public:
     
-    void mains(){
-        show();
-    }
-};
-class subParent2 :public parent{
-    public:
+//     void mains(){
+//         show(10);
+//         cout<<"subparent1"<<endl;
+//     }
+// };
+// class subParent2 :public parent{
+//     public:
     
-    void mains(){
-        show();
-    }
-};
+//     void mains(){
+//         show(10);
+//         cout<<"subparent2"<<endl;
+//     }
+// };
 
 
-class child :public subParent{
-    public:
-    void final(){
-        mains();
-    }
+// class child :public subParent{
+//     public:
+//     void final(){
+//         mains();
+//         cout<<"final class is run"<<endl;
+//     }
 
-};
+// };
 
 
-int main(){
-    child c1;
-    c1.final();
-}
+// int main(){
+//     child c1;
+//     c1.final();
+// }
 
 
 // class person{
@@ -428,3 +432,62 @@ int main(){
 //     person p("jai shree ram");
 //     p.show();
 // }
+
+
+
+// class mains{
+//     public:
+//     int x = 10;
+//     void result(){
+//         cout<<x<<endl;
+//     }
+// };
+
+// class sub1 : virtual public mains{
+//     public:
+// };
+// class sub2 : virtual public mains{
+//     public:
+// };
+
+// class child:public sub1,public sub2{
+//     public:
+//     void final(){
+//         cout<<"child";
+//     }
+// };
+// int main(){
+//     mains m;
+//     child c;
+//     c.final();
+
+// }
+
+
+
+// void add(int a){
+//     cout<<"add1 "<<a;
+// }
+
+// int add(double a){
+//     cout<<"add2 "<<a;
+// }
+
+// int main(){
+//     float a = 3.5;
+//     add(a);
+// }
+
+
+class parent{
+    public:
+    parent(int a , int b){
+
+    }
+    parent(float a , int b){
+
+    }
+    void result(){
+        cout<<"hello";
+    }
+};
