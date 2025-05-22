@@ -566,34 +566,72 @@ using namespace std;
 //     c4.disp();
 // }
 
-class complex{
+
+
+
+// class complex{
+//     public:
+//     complex(){
+
+//     }
+//     int real;
+//     int img;
+//     complex(int r , int im){
+//         real  = r;
+//         img = im;
+//     }
+
+//     complex operator+(complex&c){
+//         complex res;
+
+//         res.real = real+c.real;
+//         res.img  = img+c.img;
+
+//     }
+
+//     void show(){
+//         cout<<real<<"+"<<img<<"i";
+//     }
+// };
+
+// int main(){
+//     complex  c1(1,2),c2(2,3);
+//     complex c3;
+//     c3 = c1+c2;
+//     c3.show();
+// }
+
+class time{
     public:
-    complex(){
+    time(){
 
     }
-    int real;
-    int img;
-    complex(int r , int im){
-        real  = r;
-        img = im;
+    int hr;
+    int min;
+
+    time add(time t){
+        time result;
+
+        result.min  = min+t.min;
+        result.hr = hr+t.hr+result.min/60;
+        result.min = result.min%60;
+        return result;
     }
 
-    complex operator+(complex&c){
-        complex res;
-
-        res.real = real+c.real;
-        res.img  = img+c.img;
-
-    }
-
-    void show(){
-        cout<<real<<"+"<<img<<"i";
+    void disp(){
+        cout<<hr<<":"<<min;
     }
 };
 
 int main(){
-    complex  c1(1,2),c2(2,3);
-    complex c3;
-    c3 = c1+c2;
-    c3.show();
+    time t1;
+    t1.hr = 2;
+    t1.min = 40;
+    time t2;
+    t2.hr = 5;
+    t2.min = 50;
+    time t3;
+    t3 = t1.add(t2);
+    t3.disp();
+
 }
