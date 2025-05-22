@@ -479,15 +479,121 @@ using namespace std;
 // }
 
 
-class parent{
+// class parent{
+//     public:
+//     parent(int a , int b){
+
+//     }
+//     parent(float a , int b){
+
+//     }
+//     void result(){
+//         cout<<"hello";
+//     }
+// };
+
+
+
+// class complex{
+//     public:
+//     int real;
+//     int img;
+
+//     complex(){
+
+//     }
+//     complex(int r, int im){
+//         real = r;
+//         img = im;
+
+//     }
+//     complex operator+(complex&c){
+//         complex res;
+//         res.real = real+c.real;
+//         res.img = img+c.img;
+//         return res;
+//     }
+//     void disp(){
+//         cout<<real<<"+"<<img<<"i";
+//     }
+// };
+
+// int main(){
+//     complex c1(2,3),c2(1,2);
+//     complex c3;
+//     c3 = c1+c2;
+//     c3.disp();
+
+// }
+
+
+
+
+// class complex{
+//     public:
+//     int real;
+//     int img;
+
+//     complex(){
+
+//     }
+//     complex(int r, int im){
+//         real = r;
+//         img = im;
+
+//     }
+//     complex operator+(complex&c){
+//         complex res;
+//         res.real = real+c.real;
+//         res.img = img+c.img;
+//         return res;
+//     }
+//     complex operator-(complex&c){
+//         complex res;
+//         res.real = real-c.real;
+//         res.img = img-c.img;
+//         return res;
+//     }
+//     void disp(){
+//         cout<<real<<"+"<<img<<"i";
+//     }
+// };
+
+// int main(){
+//     complex c1(2,3),c2(1,2),c3(1,2);
+//     complex c4;
+//     c4 = c1-c2+c3;
+//     c4.disp();
+// }
+
+class complex{
     public:
-    parent(int a , int b){
+    complex(){
 
     }
-    parent(float a , int b){
+    int real;
+    int img;
+    complex(int r , int im){
+        real  = r;
+        img = im;
+    }
+
+    complex operator+(complex&c){
+        complex res;
+
+        res.real = real+c.real;
+        res.img  = img+c.img;
 
     }
-    void result(){
-        cout<<"hello";
+
+    void show(){
+        cout<<real<<"+"<<img<<"i";
     }
 };
+
+int main(){
+    complex  c1(1,2),c2(2,3);
+    complex c3;
+    c3 = c1+c2;
+    c3.show();
+}
