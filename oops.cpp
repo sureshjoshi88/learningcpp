@@ -303,7 +303,6 @@ using namespace std;
 //     s.disp();
 // }
 
-
 // class dada{
 // public:
 // string name = "ram";
@@ -327,14 +326,11 @@ using namespace std;
 // }
 // };
 
-
-
 // int main(){
 //     beta b;
 //     papa p;
 //     b.result2();
 // }
-
 
 // class parent{
 //     public:
@@ -342,7 +338,7 @@ using namespace std;
 //     void result(){
 //         a = 6;
 //         cout<<a<<endl;
-        
+
 //     }
 // };
 
@@ -369,8 +365,6 @@ using namespace std;
 // d.result3();
 // };
 
-
-
 // class parent{
 //     public:
 //     string name = "ram";
@@ -380,10 +374,9 @@ using namespace std;
 //     }
 // };
 
-
 // class subParent :public parent{
 //     public:
-    
+
 //     void mains(){
 //         show(10);
 //         cout<<"subparent1"<<endl;
@@ -391,13 +384,12 @@ using namespace std;
 // };
 // class subParent2 :public parent{
 //     public:
-    
+
 //     void mains(){
 //         show(10);
 //         cout<<"subparent2"<<endl;
 //     }
 // };
-
 
 // class child :public subParent{
 //     public:
@@ -408,12 +400,10 @@ using namespace std;
 
 // };
 
-
 // int main(){
 //     child c1;
 //     c1.final();
 // }
-
 
 // class person{
 //     public:
@@ -432,8 +422,6 @@ using namespace std;
 //     person p("jai shree ram");
 //     p.show();
 // }
-
-
 
 // class mains{
 //     public:
@@ -463,8 +451,6 @@ using namespace std;
 
 // }
 
-
-
 // void add(int a){
 //     cout<<"add1 "<<a;
 // }
@@ -478,7 +464,6 @@ using namespace std;
 //     add(a);
 // }
 
-
 // class parent{
 //     public:
 //     parent(int a , int b){
@@ -491,8 +476,6 @@ using namespace std;
 //         cout<<"hello";
 //     }
 // };
-
-
 
 // class complex{
 //     public:
@@ -525,9 +508,6 @@ using namespace std;
 //     c3.disp();
 
 // }
-
-
-
 
 // class complex{
 //     public:
@@ -566,9 +546,6 @@ using namespace std;
 //     c4.disp();
 // }
 
-
-
-
 // class complex{
 //     public:
 //     complex(){
@@ -601,37 +578,104 @@ using namespace std;
 //     c3.show();
 // }
 
-class time{
-    public:
-    time(){
+// class time{
+//     public:
+//     time(){
 
-    }
-    int hr;
-    int min;
+//     }
+//     int hr;
+//     int min;
 
-    time add(time t){
-        time result;
+//     time add(time t){
+//         time result;
 
-        result.min  = min+t.min;
-        result.hr = hr+t.hr+result.min/60;
-        result.min = result.min%60;
-        return result;
-    }
+//         result.min  = min+t.min;
+//         result.hr = hr+t.hr+result.min/60;
+//         result.min = result.min%60;
+//         return result;
+//     }
 
-    void disp(){
-        cout<<hr<<":"<<min;
+//     void disp(){
+//         cout<<hr<<":"<<min;
+//     }
+// };
+
+// int main(){
+//     time t1;
+//     t1.hr = 2;
+//     t1.min = 40;
+//     time t2;
+//     t2.hr = 5;
+//     t2.min = 50;
+//     time t3;
+//     t3 = t1.add(t2);
+//     t3.disp();
+
+// }
+
+// class movies{
+//     public:
+//     string name;
+//     int year;
+//     movies(string n,int y){
+//         name = n;
+//         year = y;
+//     }
+// };
+
+// class complex{
+//     public:
+//     int real;
+//     int img;
+//     complex(){
+
+//     }
+//     complex(int r,int i){
+//         real = r;
+//         img  = i;
+//     }
+
+//     complex operator*(complex&c){
+//         complex res;
+//         res.real = real*c.real - img*c.img;
+//         res.img = real*c.img + c.real*img;
+//         return res;
+
+//     }
+
+//     void disp(){
+//         cout<<real<<"*"<<img;
+//     }
+
+// };
+
+// int main(){
+//     complex c1(2,3),c2(1,2);
+//     complex c3;
+//     c3 = c1*c2;
+//     c3.disp();
+// }
+
+class base
+{
+public:
+    virtual void disp()
+    {
+        cout << "base";
     }
 };
-
-int main(){
-    time t1;
-    t1.hr = 2;
-    t1.min = 40;
-    time t2;
-    t2.hr = 5;
-    t2.min = 50;
-    time t3;
-    t3 = t1.add(t2);
-    t3.disp();
-
+class child : public base
+{
+public:
+    void disp()
+    {
+        cout << "child";
+    }
+};
+int main()
+{
+    base *b;
+    child obj;
+    b = &obj;
+    b->disp();
 }
