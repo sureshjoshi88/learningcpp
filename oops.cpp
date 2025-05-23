@@ -656,26 +656,76 @@ using namespace std;
 //     c3.disp();
 // }
 
-class base
-{
-public:
-    virtual void disp()
-    {
-        cout << "base";
+// class base
+// {
+// public:
+//     virtual void disp()
+//     {
+//         cout << "base";
+//     }
+// };
+// class child : public base
+// {
+// public:
+//     void disp()
+//     {
+//         cout << "child";
+//     }
+// };
+// int main()
+// {
+//     base *b;
+//     child obj;
+//     b = &obj;
+//     b->disp();
+// }
+
+
+
+
+
+
+// class shape{
+//     public:
+//     virtual void draw()=0;
+// };
+
+// class circle : public shape{
+//     public:
+//     void draw(){
+//         cout<<"second";
+//     }
+// };
+
+
+// int main(){
+//     shape *s;
+//     circle c;
+//     s = &c;
+//     s->draw();
+// }
+
+
+
+
+class A {
+    int a;
+    public:
+    A(){
+        a = 2;
     }
+    friend class B;
 };
-class child : public base
-{
+class B{
 public:
-    void disp()
-    {
-        cout << "child";
-    }
+void show(A&obj){
+    cout<<obj.a;
+}
 };
-int main()
-{
-    base *b;
-    child obj;
-    b = &obj;
-    b->disp();
+
+int main(){
+    A a;
+    B b;
+    b.show(a);
+
 }
