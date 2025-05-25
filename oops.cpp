@@ -708,24 +708,88 @@ using namespace std;
 
 
 
-class A {
-    int a;
+// class A {
+//     int a;
+//     public:
+//     A(){
+//         a = 2;
+//     }
+//     friend class B;
+// };
+// class B{
+// public:
+// void show(A&obj){
+//     cout<<obj.a;
+// }
+// };
+
+// int main(){
+//     A a;
+//     B b;
+//     b.show(a);
+
+// }
+
+
+
+
+// class A{
+//     int a;
+//     public:
+
+//     A(){
+//         a = 5;
+//     }
+//     friend void Func(A&obj);
+
+// };
+// void Func(A&obj){
+//     cout<<obj.a;
+// }
+
+// int main(){
+//     A a;
+//     Func(a);
+// }
+
+
+
+// class A{
+//     int x;
+//     public:
+//     A(){
+//         x = 5;
+//     }
+//     friend int main();
+// };
+
+
+// int main(){
+//     A a;
+//     cout<<a.x;
+
+// }
+
+
+
+class A{
+    
+    static int b ;
     public:
     A(){
-        a = 2;
+        b = 4;
     }
-    friend class B;
-};
-class B{
-public:
-void show(A&obj){
-    cout<<obj.a;
-}
+    void edit(){
+        b = b+1;
+        cout<<b;
+    }
+    void disp(){
+        cout<<b;
+    }
 };
 
 int main(){
-    A a;
-    B b;
-    b.show(a);
-
+    A a1,a2,a3;
+    // a1.edit();
+    a2.disp();
 }
