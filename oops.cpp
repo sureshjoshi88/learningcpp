@@ -578,37 +578,84 @@ using namespace std;
 //     c3.show();
 // }
 
-class time{
-    public:
-    time(){
+// class time{
+//     public:
+//     time(){
 
-    }
-    int hr;
-    int min;
+//     }
+//     int hr;
+//     int min;
 
-    time add(time t){
-        time result;
+//     time add(time t){
+//         time result;
 
-        result.min  = min+t.min;
-        result.hr = hr+t.hr+result.min/60;
-        result.min = result.min%60;
-        return result;
-    }
+//         result.min  = min+t.min;
+//         result.hr = hr+t.hr+result.min/60;
+//         result.min = result.min%60;
+//         return result;
+//     }
 
+//     void disp(){
+//         cout<<hr<<":"<<min;
+//     }
+// };
+
+// int main(){
+//     time t1;
+//     t1.hr = 2;
+//     t1.min = 40;
+//     time t2;
+//     t2.hr = 5;
+//     t2.min = 50;
+//     time t3;
+//     t3 = t1.add(t2);
+//     t3.disp();
+
+// }
+
+// class student{
+//     static int a;
+//     public:
+//     student(){
+//         a = a+1;
+        
+//     }
+//     void res(){
+//         cout<<a;
+//     }
+// };
+// int student::a = 0;
+
+// int main(){
+//     student s, s1, s2, s3;
+//     s3.res();
+// }
+
+// class ABC{
+//     public:
+//     int a ;
+//      void res(int a){
+//         this->a = a;
+//         cout<<a;
+//     }
+// };
+
+// int main(){
+// ABC b;
+// b.res(5);
+// }
+
+
+struct student
+{
+    int a;
     void disp(){
-        cout<<hr<<":"<<min;
+        cout<<a;
     }
 };
 
 int main(){
-    time t1;
-    t1.hr = 2;
-    t1.min = 40;
-    time t2;
-    t2.hr = 5;
-    t2.min = 50;
-    time t3;
-    t3 = t1.add(t2);
-    t3.disp();
-
+    student s1;
+    s1.a =9;
+    s1.disp();
 }
