@@ -578,218 +578,37 @@ using namespace std;
 //     c3.show();
 // }
 
-// class time{
-//     public:
-//     time(){
-
-//     }
-//     int hr;
-//     int min;
-
-//     time add(time t){
-//         time result;
-
-//         result.min  = min+t.min;
-//         result.hr = hr+t.hr+result.min/60;
-//         result.min = result.min%60;
-//         return result;
-//     }
-
-//     void disp(){
-//         cout<<hr<<":"<<min;
-//     }
-// };
-
-// int main(){
-//     time t1;
-//     t1.hr = 2;
-//     t1.min = 40;
-//     time t2;
-//     t2.hr = 5;
-//     t2.min = 50;
-//     time t3;
-//     t3 = t1.add(t2);
-//     t3.disp();
-
-// }
-
-// class movies{
-//     public:
-//     string name;
-//     int year;
-//     movies(string n,int y){
-//         name = n;
-//         year = y;
-//     }
-// };
-
-// class complex{
-//     public:
-//     int real;
-//     int img;
-//     complex(){
-
-//     }
-//     complex(int r,int i){
-//         real = r;
-//         img  = i;
-//     }
-
-//     complex operator*(complex&c){
-//         complex res;
-//         res.real = real*c.real - img*c.img;
-//         res.img = real*c.img + c.real*img;
-//         return res;
-
-//     }
-
-//     void disp(){
-//         cout<<real<<"*"<<img;
-//     }
-
-// };
-
-// int main(){
-//     complex c1(2,3),c2(1,2);
-//     complex c3;
-//     c3 = c1*c2;
-//     c3.disp();
-// }
-
-// class base
-// {
-// public:
-//     virtual void disp()
-//     {
-//         cout << "base";
-//     }
-// };
-// class child : public base
-// {
-// public:
-//     void disp()
-//     {
-//         cout << "child";
-//     }
-// };
-// int main()
-// {
-//     base *b;
-//     child obj;
-//     b = &obj;
-//     b->disp();
-// }
-
-
-
-
-
-
-// class shape{
-//     public:
-//     virtual void draw()=0;
-// };
-
-// class circle : public shape{
-//     public:
-//     void draw(){
-//         cout<<"second";
-//     }
-// };
-
-
-// int main(){
-//     shape *s;
-//     circle c;
-//     s = &c;
-//     s->draw();
-// }
-
-
-
-
-// class A {
-//     int a;
-//     public:
-//     A(){
-//         a = 2;
-//     }
-//     friend class B;
-// };
-// class B{
-// public:
-// void show(A&obj){
-//     cout<<obj.a;
-// }
-// };
-
-// int main(){
-//     A a;
-//     B b;
-//     b.show(a);
-
-// }
-
-
-
-
-// class A{
-//     int a;
-//     public:
-
-//     A(){
-//         a = 5;
-//     }
-//     friend void Func(A&obj);
-
-// };
-// void Func(A&obj){
-//     cout<<obj.a;
-// }
-
-// int main(){
-//     A a;
-//     Func(a);
-// }
-
-
-
-// class A{
-//     int x;
-//     public:
-//     A(){
-//         x = 5;
-//     }
-//     friend int main();
-// };
-
-
-// int main(){
-//     A a;
-//     cout<<a.x;
-
-// }
-
-
-
-class A{
-    
-    static int b ;
+class time{
     public:
-    A(){
-        b = 4;
+    time(){
+
     }
-    void edit(){
-        b = b+1;
-        cout<<b;
+    int hr;
+    int min;
+
+    time add(time t){
+        time result;
+
+        result.min  = min+t.min;
+        result.hr = hr+t.hr+result.min/60;
+        result.min = result.min%60;
+        return result;
     }
+
     void disp(){
-        cout<<b;
+        cout<<hr<<":"<<min;
     }
 };
 
 int main(){
-    A a1,a2,a3;
-    // a1.edit();
-    a2.disp();
+    time t1;
+    t1.hr = 2;
+    t1.min = 40;
+    time t2;
+    t2.hr = 5;
+    t2.min = 50;
+    time t3;
+    t3 = t1.add(t2);
+    t3.disp();
+
 }
